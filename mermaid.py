@@ -1,3 +1,4 @@
+import networkx as nx
 import csv
 import subprocess
 import sys
@@ -11,6 +12,46 @@ from ipwhois import exceptions
 DEFAULT_INPUT_FILE = 'top-100.csv'
 UNRESOLVED_AS = 'AS???'
 MTR_OUTPUT_HEADER_LINES = 2  # Number of header lines in MTR output
+
+def merge_nodes(mermaid_dict):
+    node_edges = {}
+    merged_nodes = {}
+
+    for as_number, as_info in mermaid_dict.items():
+        print(f"Checking edges for {as_number}")
+        for edge, _ in as_info['edges'].items():
+            for node in edge:
+                if not node.startswith('???_to_'):
+                    continue
+                if node not in node_edges:
+                    node_edges[node] = {'in': set(), 'out': set()}
+                if node == edge[0]:
+                    node_edges[node]['out'].add(edge[1])
+                else:
+                    node_edges[node]['in'].add(edge[0])
+
+    for node, edges in node_edges.items():
+        merged_nodes[node] = node  # Initially, each node is merged into itself
+        for other_node, other_edges in node_edges.items():
+            if other_node == node:
+                continue
+            if edges['in'] == other_edges['in'] and edges['out'] == other_edges['out']:
+                print(f"Merging {other_node} into {node}")
+                merged_nodes[other_node] = node
+
+    for as_number, as_info in mermaid_dict.items():
+        for edge in list(as_info['edges']):
+            new_edge = (merged_nodes.get(edge[0], edge[0]), merged_nodes.get(edge[1], edge[1]))
+            if new_edge != edge:
+                domain = as_info['edges'].pop(edge)
+                as_info['edges'][new_edge] = None if domain else domain
+
+        mermaid_dict[as_number]['nodes'] = [merged_nodes.get(node, node) for node in as_info['nodes'] if merged_nodes.get(node, node) in as_info['nodes']]
+
+    return mermaid_dict
+
+
+
 
 def run_mtr_and_get_output(domain, ip_version=None):
     """
@@ -139,6 +180,7 @@ def generate_mermaid_text(mermaid_dict):
             mermaid_text += f'  {edge[0]} -- "{domain}" --> {edge[1]}\n' if domain else f'  {edge[0]} ---> {edge[1]}\n'
     return mermaid_text
 
+
 def main():
     """
     Main execution function.
@@ -158,6 +200,13 @@ def main():
 
             as_paths = parse_mtr_output(mtr_output, domain)
             mermaid_dict = generate_mermaid_code(as_paths, domain, mermaid_dict)
+
+            mermaid_code = generate_mermaid_text(mermaid_dict)
+            print(f'Mermaid code:\n{mermaid_code}\n')
+
+            # Merge nodes here
+            mermaid_dict = merge_nodes(mermaid_dict)
+
             mermaid_code = generate_mermaid_text(mermaid_dict)
             print(f'Mermaid code:\n{mermaid_code}\n')
 
