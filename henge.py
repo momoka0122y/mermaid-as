@@ -19,7 +19,7 @@ def merge_nodes(mermaid_dict):
     merged_nodes = {}
 
     for as_number, as_info in mermaid_dict.items():
-        print(f"Checking edges for {as_number}")
+        # print(f"Checking edges for {as_number}")
         for edge, _ in as_info['edges'].items():
             for node in edge:
                 if not node.startswith('???_to_'):
@@ -37,7 +37,7 @@ def merge_nodes(mermaid_dict):
             if other_node == node:
                 continue
             if edges['in'] == other_edges['in'] and edges['out'] == other_edges['out']:
-                print(f"Merging {other_node} into {node}")
+                # print(f"Merging {other_node} into {node}")
                 merged_nodes[other_node] = node
 
     for as_number, as_info in mermaid_dict.items():
@@ -99,17 +99,7 @@ def get_as_info_from_ip(ip):
                 if not found_netname:
                     smallest_netname = '???'
         i += 1
-
     return smallest_netname
-
-
-
-
-
-
-
-
-
 
 
 def parse_mtr_output(mtr_output, domain, simple=False):
@@ -136,13 +126,13 @@ def parse_mtr_output(mtr_output, domain, simple=False):
         else:
             domain_name = ''
             ip = parts[2]
-
         if ip != '???':
             if domain_name == '':
                 domain_name = ip
             if as_number == 'AS???':
-                as_number= get_as_info_from_ip(ip)
+                as_number= "AS" + get_as_info_from_ip(ip)
         else:
+            domain = domain.replace('-', '')
             domain_name = f'???_to_{domain}_{i}'
 
         if simple:
@@ -165,7 +155,7 @@ def parse_mtr_output(mtr_output, domain, simple=False):
             else:
                 as_paths += group  # If only one node, just add it
 
-    print(as_paths)
+
     return as_paths
 
 
@@ -190,7 +180,6 @@ def normalize_node_name(name):
     Normalizes a node name by replacing consecutive dashes with a single dash.
     """
     return re.sub(r'-+', '-', name)
-
 
 def generate_mermaid_code(as_paths, domain, mermaid_dict):
     """
@@ -253,9 +242,59 @@ def generate_mermaid_text(mermaid_dict):
 
     return mermaid_text.strip()  # remove trailing and leading whitespaces
 
+def generate_inet_henge(as_paths, mtred_domain, inet_henge):
+
+    # Function to create node name
+    def create_node_name(as_info, is_start_node=False, is_last_node=False):
+        node_name = as_info['as'] + '-' + as_info['domain_name'] if (as_info['as'] != '???' and as_info['as'] != 'AS???') else as_info['domain_name']
+        if is_start_node:
+            return node_name + '.START'
+        elif is_last_node:
+            return (as_info['as'] + '-' if as_info['as'] != '???' and as_info['as'] != 'AS???' else '') + mtred_domain
+
+        else:
+            return node_name
 
 
-    
+
+    # Iterate through the as_paths to create nodes and links
+    for i in range(len(as_paths) - 1):
+        source_info = as_paths[i]
+        target_info = as_paths[i + 1]
+
+        is_start_node=(i == 0)
+        is_last_node=(i ==(len(as_paths) - 2))
+
+        source_name = create_node_name(source_info, is_start_node, 0)
+        target_name = create_node_name(target_info, 0, is_last_node)
+        # Create nodes if not already present
+        if not any(node['name'] == source_name for node in inet_henge['nodes']):
+            if is_start_node:
+                inet_henge['nodes'].append({"name": source_name, "meta": {"ip": source_info['ip']}, "icon": "./images/router.png" }) 
+            else:
+                inet_henge['nodes'].append({"name": source_name, "meta": {"ip": source_info['ip']}})
+        if not any(node['name'] == target_name for node in inet_henge['nodes']):
+            if is_last_node:
+                inet_henge['nodes'].append({"name": target_name, "meta": {"ip": target_info['ip']}, "icon": "./images/ix.png"})
+            else:
+                inet_henge['nodes'].append({"name": target_name, "meta": {"ip": target_info['ip']}})
+
+        # Create or update links
+        link = next((link for link in inet_henge['links'] if link['source'] == source_name and link['target'] == target_name), None)
+        if link:
+            link['meta']['bandwidth'] = str(int(link['meta'].get('bandwidth', '0')) + 1)
+        else:
+            inet_henge['links'].append({
+                "source": source_name,
+                "target": target_name,
+                "meta": {
+                    "interface": {"source": mtred_domain, "target": mtred_domain},
+                    "bandwidth": "1"
+                }
+            })
+
+    return inet_henge
+
 
 
 def main():
@@ -265,6 +304,10 @@ def main():
     """
     args = parse_arguments()
 
+    inet_henge = {
+        'nodes': [],
+        'links': []
+    }
     mermaid_dict = {}
     with open(args.input_file, 'r') as file:
         reader = csv.reader(file)
@@ -276,13 +319,11 @@ def main():
                 continue
 
             as_paths = parse_mtr_output(mtr_output, domain, args.simple)
+
+
+
             mermaid_dict = generate_mermaid_code(as_paths, domain, mermaid_dict)
-
-            # Merge nodes here
             mermaid_dict = merge_nodes(mermaid_dict)
-
-            # print(mermaid_dict)
-
             mermaid_code = generate_mermaid_text(mermaid_dict)
             print(f'Mermaid code:\n{mermaid_code}\n')
 
@@ -291,6 +332,14 @@ def main():
                     file.write(mermaid_code)
             else:
                 print("The text is too long to be written into the file.")
+
+
+            inet_henge = generate_inet_henge(as_paths, domain, inet_henge)
+            inet_henge_json = json.dumps(inet_henge, indent=4)
+            print(f'inet_henge_json:\n{inet_henge_json}\n')
+            with open('output.json', 'w') as file:
+                file.write(inet_henge_json)
+
 
 if __name__ == "__main__":
     main()
