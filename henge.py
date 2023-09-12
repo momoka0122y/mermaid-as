@@ -54,12 +54,16 @@ def merge_nodes(mermaid_dict):
 
 
 
-def run_mtr_and_get_output(domain, ip_version=None):
+def run_mtr_and_get_output(domain, ip_version=None, interface=None):
     """
     Runs MTR and captures the output.
     If host resolution fails or result contains local IP, None is returned.
     """
     command = ['sudo', '/opt/homebrew/Cellar/mtr/0.95/sbin/mtr', f'{ip_version or "-"}zbw', domain]
+
+    if interface:
+        command.insert(3, f'-I {interface}')
+
     result = subprocess.run(command, capture_output=True, text=True)
     if "Failed to resolve host" in result.stderr or '127.0.0.1' in result.stdout:
         return None
@@ -70,8 +74,9 @@ def get_as_info_from_ip(ip):
     command = ['whois', ip]
     result = subprocess.run(command, capture_output=True, text=True)
 
-    inetnum_pattern = re.compile(r'inetnum:\s+([\d.]+)\s+-\s+([\d.]+)')
-    netname_pattern = re.compile(r'netname:\s+(\w+)')
+    inetnum_pattern = re.compile(r'(inetnum:\s+([\d.]+)\s+-\s+([\d.]+))|(NetRange:\s+([\d.]+)\s+-\s+([\d.]+))')
+    netname_pattern = re.compile(r'(descr:\s+(.*))|(OrgName:\s+(.*))|(netname:\s+(.*))') # Changed pattern
+
     smallest_range = float('inf')
     smallest_netname = '???'
 
@@ -81,7 +86,12 @@ def get_as_info_from_ip(ip):
         line = lines[i]
         inetnum_match = inetnum_pattern.match(line)
         if inetnum_match:
-            start_ip, end_ip = inetnum_match.groups()
+            # Check whether the 'inetnum' or 'NetRange' group was matched
+            if inetnum_match.group(2) and inetnum_match.group(3):
+                start_ip, end_ip = inetnum_match.group(2), inetnum_match.group(3)
+            else:
+                start_ip, end_ip = inetnum_match.group(5), inetnum_match.group(6)
+
             start_ip = tuple(map(int, start_ip.split('.')))
             end_ip = tuple(map(int, end_ip.split('.')))
             ip_range = sum((b - a) * 256 ** (3 - j) for j, (a, b) in enumerate(zip(start_ip, end_ip)))
@@ -93,13 +103,15 @@ def get_as_info_from_ip(ip):
                 for j in range(i + 1, len(lines)):
                     netname_match = netname_pattern.match(lines[j])
                     if netname_match:
-                        smallest_netname = netname_match.groups()[0]
+                        smallest_netname = netname_match.group(2) if netname_match.group(2) else (netname_match.group(4) if netname_match.group(4) else netname_match.group(6))
                         found_netname = True
-                        break # Break the inner loop once 'netname:' is found
+                        break
                 if not found_netname:
                     smallest_netname = '???'
         i += 1
+    print(ip, smallest_netname)
     return smallest_netname
+
 
 
 def parse_mtr_output(mtr_output, domain, simple=False):
@@ -130,7 +142,7 @@ def parse_mtr_output(mtr_output, domain, simple=False):
             if domain_name == '':
                 domain_name = ip
             if as_number == 'AS???':
-                as_number= "AS" + get_as_info_from_ip(ip)
+                as_number= get_as_info_from_ip(ip)
         else:
             domain = domain.replace('-', '')
             domain_name = f'???_to_{domain}_{i}'
@@ -146,7 +158,7 @@ def parse_mtr_output(mtr_output, domain, simple=False):
         if i == 3:
             ip += '(start)'
             domain_name += '(start)'
-
+    print(as_group_list)
     if simple:
         for group in as_group_list:
             if len(group) > 1:
@@ -154,7 +166,7 @@ def parse_mtr_output(mtr_output, domain, simple=False):
                 as_paths.append(group[-1])  # Add the last node
             else:
                 as_paths += group  # If only one node, just add it
-
+    print(as_paths)
 
     return as_paths
 
@@ -172,6 +184,11 @@ def parse_arguments():
                         help='IP version for MTR command')
     parser.add_argument('--simple', action='store_true',
                         help='Only display the first and last node in each AS path')
+    parser.add_argument('-n', type=int, default=None,
+                        help='Maximum number of domains used from the list')
+    parser.add_argument('-N', type=int, default=None,
+                        help='Number of successful tries that will be done')
+    parser.add_argument('-I', default=None, help='Specify the interface for MTR command')
 
     return parser.parse_args()
 
@@ -225,7 +242,7 @@ def generate_mermaid_text(mermaid_dict):
             if as_number == UNRESOLVED_AS or as_number == '???':
                 mermaid_text += f'  {node}("{display_node}")\n'
             else:
-                if as_number not in created_subgraphs:
+                if as_number not in created_subgraphs and as_number is not None:
                     # Create a subgraph name using AS number and AS name if availabl
                     subgraph_name =  as_number
 
@@ -246,12 +263,15 @@ def generate_inet_henge(as_paths, mtred_domain, inet_henge):
 
     # Function to create node name
     def create_node_name(as_info, is_start_node=False, is_last_node=False):
-        node_name = as_info['as'] + '-' + as_info['domain_name'] if (as_info['as'] != '???' and as_info['as'] != 'AS???') else as_info['domain_name']
+        # Remove '-' and ' ' from both as_info['as'] and as_info['domain_name']
+        clean_as = as_info['as'].replace('-', '').replace(' ', '') if as_info['as'] else ''
+        clean_domain_name = as_info['domain_name'].replace('-', '').replace(' ', '')
+
+        node_name = clean_as + '-' + clean_domain_name if (clean_as and clean_as != '???' and clean_as != 'AS???') else clean_domain_name
         if is_start_node:
             return node_name + '.START'
         elif is_last_node:
-            return (as_info['as'] + '-' if as_info['as'] != '???' and as_info['as'] != 'AS???' else '') + mtred_domain
-
+            return (clean_as + '-' if clean_as != '???' and clean_as != 'AS???' else '') + mtred_domain
         else:
             return node_name
 
@@ -296,31 +316,42 @@ def generate_inet_henge(as_paths, mtred_domain, inet_henge):
     return inet_henge
 
 
-
 def main():
     """
     Main execution function.
-    Reads CSV file with domains, runs MTR, parses the output, generates the Mermaid graph, and writes the result to an output file.
     """
     args = parse_arguments()
+
+    max_tries = args.n if args.n is not None else float('inf')
+    max_successes = args.N if args.N is not None else float('inf')
+
+    successes = 0
 
     inet_henge = {
         'nodes': [],
         'links': []
     }
     mermaid_dict = {}
+
     with open(args.input_file, 'r') as file:
         reader = csv.reader(file)
-        for row in reader:
+        for tries, row in enumerate(reader):
+            if tries >= max_tries:
+                break
+
             domain = row[0]
-            mtr_output = run_mtr_and_get_output(domain, args.ip_version)
+            mtr_output = run_mtr_and_get_output(domain, args.ip_version, args.I)
             if mtr_output is None:
-                print(f'Failed to resolve hostname for {domain}. Skipping...')
-                continue
+                mtr_output = run_mtr_and_get_output("www."+ domain, args.ip_version)
+                if mtr_output is None:
+                    print(f'Failed to resolve hostname for {domain}. Skipping...')
+                    continue
+
+            successes += 1
+            if successes >= max_successes:
+                break
 
             as_paths = parse_mtr_output(mtr_output, domain, args.simple)
-
-
 
             mermaid_dict = generate_mermaid_code(as_paths, domain, mermaid_dict)
             mermaid_dict = merge_nodes(mermaid_dict)

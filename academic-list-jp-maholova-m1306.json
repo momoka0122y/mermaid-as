@@ -1,0 +1,5047 @@
+{
+    "nodes": [
+        {
+            "name": "192.168.10.1.START",
+            "meta": {
+                "ip": "192.168.10.1"
+            },
+            "icon": "./images/router.png"
+        },
+        {
+            "name": "AS4713-118.23.14.235",
+            "meta": {
+                "ip": "118.23.14.235"
+            }
+        },
+        {
+            "name": "AS4713-210.254.188.18",
+            "meta": {
+                "ip": "210.254.188.18"
+            }
+        },
+        {
+            "name": "MULTIFEED-210.173.174.130",
+            "meta": {
+                "ip": "210.173.174.130"
+            }
+        },
+        {
+            "name": "AS2497-tky009bb00.iij.net",
+            "meta": {
+                "ip": "58.138.112.33"
+            }
+        },
+        {
+            "name": "AS2497-210.130.133.166",
+            "meta": {
+                "ip": "210.130.133.166"
+            }
+        },
+        {
+            "name": "AS2519-163.139.136.67",
+            "meta": {
+                "ip": "163.139.136.67"
+            }
+        },
+        {
+            "name": "AS2519-222.230.187.146",
+            "meta": {
+                "ip": "222.230.187.146"
+            }
+        },
+        {
+            "name": "???_to_utokyo.ac.jp_14",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "???_to_utokyo.ac.jp_16",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "AS4694-158.205.121.46",
+            "meta": {
+                "ip": "158.205.121.46"
+            }
+        },
+        {
+            "name": "u-tokyo.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS4713-122.1.245.181",
+            "meta": {
+                "ip": "122.1.245.181"
+            }
+        },
+        {
+            "name": "AS2914-ae6.r02.tokyjp05.jp.bb.gin.ntt.net",
+            "meta": {
+                "ip": "120.88.53.21"
+            }
+        },
+        {
+            "name": "AS2914-ae1.fastly.tokyjp08.jp.bb.gin.ntt.net",
+            "meta": {
+                "ip": "61.200.82.50"
+            }
+        },
+        {
+            "name": "AS54113-kyoto-u.ac.jp",
+            "meta": {
+                "ip": "151.101.194.132"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS4713-60.37.54.182",
+            "meta": {
+                "ip": "60.37.54.182"
+            }
+        },
+        {
+            "name": "MULTIFEED-210.173.176.94",
+            "meta": {
+                "ip": "210.173.176.94"
+            }
+        },
+        {
+            "name": "AS2907-150.99.11.32",
+            "meta": {
+                "ip": "150.99.11.32"
+            }
+        },
+        {
+            "name": "AS2907-keioshinanomachi.gw.sinet.ad.jp",
+            "meta": {
+                "ip": "150.99.192.206"
+            }
+        },
+        {
+            "name": "AS38635-bbyagamicore0sc.bb.keio.ac.jp",
+            "meta": {
+                "ip": "131.113.1.150"
+            }
+        },
+        {
+            "name": "AS38635-vmygsw1new.itc.keio.ac.jp",
+            "meta": {
+                "ip": "131.113.132.139"
+            }
+        },
+        {
+            "name": "keio.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS4713-122.1.245.14",
+            "meta": {
+                "ip": "122.1.245.14"
+            }
+        },
+        {
+            "name": "MULTIFEED-210.173.177.19",
+            "meta": {
+                "ip": "210.173.177.19"
+            }
+        },
+        {
+            "name": "AmazonTechnologiesInc.-150.222.77.187",
+            "meta": {
+                "ip": "150.222.77.187"
+            }
+        },
+        {
+            "name": "AmazonTechnologiesInc.-52.93.66.83",
+            "meta": {
+                "ip": "52.93.66.83"
+            }
+        },
+        {
+            "name": "nii.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS4713-210.254.188.22",
+            "meta": {
+                "ip": "210.254.188.22"
+            }
+        },
+        {
+            "name": "AS2907-150.99.5.86",
+            "meta": {
+                "ip": "150.99.5.86"
+            }
+        },
+        {
+            "name": "tohoku.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS4713-122.28.104.122",
+            "meta": {
+                "ip": "122.28.104.122"
+            }
+        },
+        {
+            "name": "MULTIFEED-210.173.176.188",
+            "meta": {
+                "ip": "210.173.176.188"
+            }
+        },
+        {
+            "name": "AmazonTechnologiesInc.-150.222.90.119",
+            "meta": {
+                "ip": "150.222.90.119"
+            }
+        },
+        {
+            "name": "AmazonTechnologiesInc.-150.222.90.39",
+            "meta": {
+                "ip": "150.222.90.39"
+            }
+        },
+        {
+            "name": "???_to_tsukuba.ac.jp_10",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "???_to_tsukuba.ac.jp_18",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "AmazonTechnologiesInc.-tsukuba.ac.jp",
+            "meta": {
+                "ip": "18.172.52.58"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2907-150.99.18.88",
+            "meta": {
+                "ip": "150.99.18.88"
+            }
+        },
+        {
+            "name": "AS4730-133.1.0.11",
+            "meta": {
+                "ip": "133.1.0.11"
+            }
+        },
+        {
+            "name": "AS4730-133.1.10.34",
+            "meta": {
+                "ip": "133.1.10.34"
+            }
+        },
+        {
+            "name": "osaka-u.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2907-150.99.20.146",
+            "meta": {
+                "ip": "150.99.20.146"
+            }
+        },
+        {
+            "name": "AS2907-kyushuu.gw.sinet.ad.jp",
+            "meta": {
+                "ip": "150.99.181.222"
+            }
+        },
+        {
+            "name": "kyushu-u.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2914-ae38.r01.tokyjp08.jp.ce.gin.ntt.net",
+            "meta": {
+                "ip": "61.200.82.10"
+            }
+        },
+        {
+            "name": "AS54113-hiroshima-u.ac.jp",
+            "meta": {
+                "ip": "151.101.2.132"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2907-150.99.16.246",
+            "meta": {
+                "ip": "150.99.16.246"
+            }
+        },
+        {
+            "name": "nagoya-u.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2907-150.99.0.142",
+            "meta": {
+                "ip": "150.99.0.142"
+            }
+        },
+        {
+            "name": "AS2907-hokudaihinet.gw.sinet.ad.jp",
+            "meta": {
+                "ip": "150.99.198.186"
+            }
+        },
+        {
+            "name": "hokudai.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2907-150.99.10.186",
+            "meta": {
+                "ip": "150.99.10.186"
+            }
+        },
+        {
+            "name": "AS2907-titech.gw.sinet.ad.jp",
+            "meta": {
+                "ip": "150.99.186.230"
+            }
+        },
+        {
+            "name": "titech.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2907-150.99.18.140",
+            "meta": {
+                "ip": "150.99.18.140"
+            }
+        },
+        {
+            "name": "kobe-u.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2907-150.99.18.34",
+            "meta": {
+                "ip": "150.99.18.34"
+            }
+        },
+        {
+            "name": "AS2907-ritsumei.dc.gw.sinet.ad.jp",
+            "meta": {
+                "ip": "150.99.192.82"
+            }
+        },
+        {
+            "name": "ritsumei.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS4713-u-fukui.ac.jp",
+            "meta": {
+                "ip": "220.110.205.29"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2907-150.99.19.154",
+            "meta": {
+                "ip": "150.99.19.154"
+            }
+        },
+        {
+            "name": "okayama-u.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AmazonTechnologiesInc.-150.222.90.121",
+            "meta": {
+                "ip": "150.222.90.121"
+            }
+        },
+        {
+            "name": "AmazonTechnologiesInc.-52.95.30.26",
+            "meta": {
+                "ip": "52.95.30.26"
+            }
+        },
+        {
+            "name": "???_to_kumamotou.ac.jp_10",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "???_to_kumamotou.ac.jp_14",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "AmazonTechnologiesInc.-15.230.152.56",
+            "meta": {
+                "ip": "15.230.152.56"
+            }
+        },
+        {
+            "name": "AS16509-kumamoto-u.ac.jp",
+            "meta": {
+                "ip": "18.65.206.8"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS4713-60.37.54.178",
+            "meta": {
+                "ip": "60.37.54.178"
+            }
+        },
+        {
+            "name": "AS2497-tky009bb01.iij.net",
+            "meta": {
+                "ip": "58.138.112.45"
+            }
+        },
+        {
+            "name": "AS2497-fukuoka-u.ac.jp",
+            "meta": {
+                "ip": "203.180.245.163"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS4713-118.23.168.142",
+            "meta": {
+                "ip": "118.23.168.142"
+            }
+        },
+        {
+            "name": "AS2500-as2500.dixie.jp",
+            "meta": {
+                "ip": "202.249.2.83"
+            }
+        },
+        {
+            "name": "AS2500-wide.ad.jp",
+            "meta": {
+                "ip": "203.178.136.59"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2907-150.99.9.124",
+            "meta": {
+                "ip": "150.99.9.124"
+            }
+        },
+        {
+            "name": "AS2907-rikkyo.gw.sinet.ad.jp",
+            "meta": {
+                "ip": "150.99.194.226"
+            }
+        },
+        {
+            "name": "rikkyo.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2907-150.99.13.0",
+            "meta": {
+                "ip": "150.99.13.0"
+            }
+        },
+        {
+            "name": "AS2907-niigatau.gw.sinet.ad.jp",
+            "meta": {
+                "ip": "150.99.186.202"
+            }
+        },
+        {
+            "name": "???_to_niigatau.ac.jp_10",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "AS2907-niigata-u.ac.jp",
+            "meta": {
+                "ip": "133.35.17.6"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2907-150.99.6.80",
+            "meta": {
+                "ip": "150.99.6.80"
+            }
+        },
+        {
+            "name": "AS2907-yamagatau.gw.sinet.ad.jp",
+            "meta": {
+                "ip": "150.99.183.122"
+            }
+        },
+        {
+            "name": "AS131159-133.24.250.49",
+            "meta": {
+                "ip": "133.24.250.49"
+            }
+        },
+        {
+            "name": "yamagata-u.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "MULTIFEED-210.173.177.18",
+            "meta": {
+                "ip": "210.173.177.18"
+            }
+        },
+        {
+            "name": "AmazonTechnologiesInc.-52.93.251.201",
+            "meta": {
+                "ip": "52.93.251.201"
+            }
+        },
+        {
+            "name": "AmazonTechnologiesInc.-52.95.30.32",
+            "meta": {
+                "ip": "52.95.30.32"
+            }
+        },
+        {
+            "name": "kindai.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS4713-118.23.168.137",
+            "meta": {
+                "ip": "118.23.168.137"
+            }
+        },
+        {
+            "name": "AS2914-ae5.r02.tokyjp05.jp.bb.gin.ntt.net",
+            "meta": {
+                "ip": "120.88.53.17"
+            }
+        },
+        {
+            "name": "AS2914-ce01402.r01.tokyjp08.jp.ce.gin.ntt.net",
+            "meta": {
+                "ip": "61.120.146.14"
+            }
+        },
+        {
+            "name": "SAKURANET-tkwrt301sbrt1.bb.sakura.ad.jp",
+            "meta": {
+                "ip": "157.17.130.14"
+            }
+        },
+        {
+            "name": "SAKURANET-sactk1art11tkdrt1b1.bb.sakura.ad.jp",
+            "meta": {
+                "ip": "157.17.136.226"
+            }
+        },
+        {
+            "name": "???_to_tus.ac.jp_13",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "AS9370-tus.ac.jp",
+            "meta": {
+                "ip": "59.106.227.100"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2497-210.130.134.118",
+            "meta": {
+                "ip": "210.130.134.118"
+            }
+        },
+        {
+            "name": "AS2519-163.139.130.218",
+            "meta": {
+                "ip": "163.139.130.218"
+            }
+        },
+        {
+            "name": "AS2519-222.230.187.198",
+            "meta": {
+                "ip": "222.230.187.198"
+            }
+        },
+        {
+            "name": "???_to_hosei.ac.jp_14",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "???_to_hosei.ac.jp_16",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "AS4694-158.205.83.66",
+            "meta": {
+                "ip": "158.205.83.66"
+            }
+        },
+        {
+            "name": "hosei.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AmazonTechnologiesInc.-150.222.90.123",
+            "meta": {
+                "ip": "150.222.90.123"
+            }
+        },
+        {
+            "name": "AmazonTechnologiesInc.-150.222.90.43",
+            "meta": {
+                "ip": "150.222.90.43"
+            }
+        },
+        {
+            "name": "???_to_utokai.ac.jp_10",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "AmazonTechnologiesInc.-52.95.31.67",
+            "meta": {
+                "ip": "52.95.31.67"
+            }
+        },
+        {
+            "name": "AmazonTechnologiesInc.-150.222.105.11",
+            "meta": {
+                "ip": "150.222.105.11"
+            }
+        },
+        {
+            "name": "???_to_utokai.ac.jp_13",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "???_to_utokai.ac.jp_17",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "AS16509-u-tokai.ac.jp",
+            "meta": {
+                "ip": "13.225.165.113"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2907-150.99.11.230",
+            "meta": {
+                "ip": "150.99.11.230"
+            }
+        },
+        {
+            "name": "AS2907-uec.gw.sinet.ad.jp",
+            "meta": {
+                "ip": "150.99.198.254"
+            }
+        },
+        {
+            "name": "???_to_uec.ac.jp_10",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "???_to_uec.ac.jp_11",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "AS2907-uec.ac.jp",
+            "meta": {
+                "ip": "130.153.8.43"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2907-utnet2.gw.sinet.ad.jp",
+            "meta": {
+                "ip": "150.99.190.98"
+            }
+        },
+        {
+            "name": "AS2501-ra3afe010.nc.utokyo.ac.jp",
+            "meta": {
+                "ip": "133.11.206.154"
+            }
+        },
+        {
+            "name": "AS2501-ra51vlan3001.nc.utokyo.ac.jp",
+            "meta": {
+                "ip": "133.11.130.74"
+            }
+        },
+        {
+            "name": "???_to_umin.ac.jp_14",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "???_to_umin.ac.jp_16",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "AS2501-umin.ac.jp",
+            "meta": {
+                "ip": "133.11.250.147"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "MULTIFEED-210.173.174.138",
+            "meta": {
+                "ip": "210.173.174.138"
+            }
+        },
+        {
+            "name": "AS2519-222.230.187.142",
+            "meta": {
+                "ip": "222.230.187.142"
+            }
+        },
+        {
+            "name": "???_to_kyutech.ac.jp_14",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "???_to_kyutech.ac.jp_16",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "AS4694-158.205.121.38",
+            "meta": {
+                "ip": "158.205.121.38"
+            }
+        },
+        {
+            "name": "AS4694-kyutech.ac.jp",
+            "meta": {
+                "ip": "210.152.241.100"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "MULTIFEED-210.173.176.198",
+            "meta": {
+                "ip": "210.173.176.198"
+            }
+        },
+        {
+            "name": "AmazonTechnologiesInc.-15.230.152.9",
+            "meta": {
+                "ip": "15.230.152.9"
+            }
+        },
+        {
+            "name": "AmazonTechnologiesInc.-52.93.66.143",
+            "meta": {
+                "ip": "52.93.66.143"
+            }
+        },
+        {
+            "name": "???_to_meiji.ac.jp_10",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "AmazonTechnologiesInc.-52.95.31.31",
+            "meta": {
+                "ip": "52.95.31.31"
+            }
+        },
+        {
+            "name": "AmazonTechnologiesInc.-52.93.250.199",
+            "meta": {
+                "ip": "52.93.250.199"
+            }
+        },
+        {
+            "name": "???_to_meiji.ac.jp_13",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "???_to_meiji.ac.jp_17",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "AS16509-meiji.ac.jp",
+            "meta": {
+                "ip": "143.204.86.70"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2907-150.99.6.202",
+            "meta": {
+                "ip": "150.99.6.202"
+            }
+        },
+        {
+            "name": "fukushima-u.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2907-150.99.12.70",
+            "meta": {
+                "ip": "150.99.12.70"
+            }
+        },
+        {
+            "name": "AS2907-kanagawau.gw.sinet.ad.jp",
+            "meta": {
+                "ip": "150.99.197.222"
+            }
+        },
+        {
+            "name": "kanagawa-u.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS4713-122.1.245.10",
+            "meta": {
+                "ip": "122.1.245.10"
+            }
+        },
+        {
+            "name": "AS15169-142.250.167.141",
+            "meta": {
+                "ip": "142.250.167.141"
+            }
+        },
+        {
+            "name": "AS15169-142.251.226.141",
+            "meta": {
+                "ip": "142.251.226.141"
+            }
+        },
+        {
+            "name": "AS396982-nihon-u.ac.jp",
+            "meta": {
+                "ip": "34.95.124.173"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS4713-122.1.245.210",
+            "meta": {
+                "ip": "122.1.245.210"
+            }
+        },
+        {
+            "name": "AS2500-po2802.ct68.jaist.ac.jp",
+            "meta": {
+                "ip": "203.178.138.171"
+            }
+        },
+        {
+            "name": "AS17932-150.65.254.90",
+            "meta": {
+                "ip": "150.65.254.90"
+            }
+        },
+        {
+            "name": "AS17932-jaist.ac.jp",
+            "meta": {
+                "ip": "150.65.5.232"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2500-nao.ac.jp",
+            "meta": {
+                "ip": "203.178.129.203"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "SAKURANET-tkort4brt1.bb.sakura.ad.jp",
+            "meta": {
+                "ip": "157.17.130.6"
+            }
+        },
+        {
+            "name": "SAKURANET-sacis1art11rt301b2.sakura.ad.jp",
+            "meta": {
+                "ip": "103.10.113.22"
+            }
+        },
+        {
+            "name": "???_to_nitech.ac.jp_15",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "AS7684-nitech.ac.jp",
+            "meta": {
+                "ip": "133.242.54.187"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2907-150.99.21.2",
+            "meta": {
+                "ip": "150.99.21.2"
+            }
+        },
+        {
+            "name": "AS2907-uryukyu.gw.sinet.ad.jp",
+            "meta": {
+                "ip": "150.99.193.238"
+            }
+        },
+        {
+            "name": "AS17960-133.13.63.242",
+            "meta": {
+                "ip": "133.13.63.242"
+            }
+        },
+        {
+            "name": "u-ryukyu.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS4713-118.23.168.133",
+            "meta": {
+                "ip": "118.23.168.133"
+            }
+        },
+        {
+            "name": "AS2914-ae5.r03.tokyjp05.jp.bb.gin.ntt.net",
+            "meta": {
+                "ip": "120.88.53.25"
+            }
+        },
+        {
+            "name": "SAKURANET-tkgrt1sbrt1.bb.sakura.ad.jp",
+            "meta": {
+                "ip": "157.17.130.10"
+            }
+        },
+        {
+            "name": "SAKURANET-sactk1art11tkdrt2b1.bb.sakura.ad.jp",
+            "meta": {
+                "ip": "157.17.136.242"
+            }
+        },
+        {
+            "name": "???_to_chibau.ac.jp_13",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "AS9370-chiba-u.ac.jp",
+            "meta": {
+                "ip": "163.43.197.172"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2907-kansaiu.gw.sinet.ad.jp",
+            "meta": {
+                "ip": "150.99.181.162"
+            }
+        },
+        {
+            "name": "kansai-u.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "teikyo-u.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS4713-125.206.183.198",
+            "meta": {
+                "ip": "125.206.183.198"
+            }
+        },
+        {
+            "name": "AS7522-115.31.54.162",
+            "meta": {
+                "ip": "115.31.54.162"
+            }
+        },
+        {
+            "name": "AS7522-host090.ip110.stnet.ne.jp",
+            "meta": {
+                "ip": "125.215.94.90"
+            }
+        },
+        {
+            "name": "AS18260-219.109.60.10.user.ecatv.ne.jp",
+            "meta": {
+                "ip": "219.109.60.10"
+            }
+        },
+        {
+            "name": "ehime-u.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS4713-61.199.135.106",
+            "meta": {
+                "ip": "61.199.135.106"
+            }
+        },
+        {
+            "name": "AS8075-ae200.icr02.tyo30.ntwk.msn.net",
+            "meta": {
+                "ip": "104.44.236.177"
+            }
+        },
+        {
+            "name": "???_to_chuou.ac.jp_9",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "???_to_chuou.ac.jp_13",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "AS8075-chuo-u.ac.jp",
+            "meta": {
+                "ip": "13.73.26.73"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2907-150.99.20.248",
+            "meta": {
+                "ip": "150.99.20.248"
+            }
+        },
+        {
+            "name": "AS2907-kagoshimau.gw.sinet.ad.jp",
+            "meta": {
+                "ip": "150.99.187.86"
+            }
+        },
+        {
+            "name": "kagoshima-u.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "kyusan-u.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2907-toyo.gw.sinet.ad.jp",
+            "meta": {
+                "ip": "150.99.198.114"
+            }
+        },
+        {
+            "name": "AS18087-133.79.7.251",
+            "meta": {
+                "ip": "133.79.7.251"
+            }
+        },
+        {
+            "name": "AS18087-toyo.ac.jp",
+            "meta": {
+                "ip": "133.79.5.1"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "MULTIFEED-210.173.176.37",
+            "meta": {
+                "ip": "210.173.176.37"
+            }
+        },
+        {
+            "name": "AS2514-00122025.tkykcacr01.sphere.ad.jp",
+            "meta": {
+                "ip": "202.239.117.17"
+            }
+        },
+        {
+            "name": "AS2514-tmu.ac.jp",
+            "meta": {
+                "ip": "124.146.154.41"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AmazonTechnologiesInc.-15.230.152.13",
+            "meta": {
+                "ip": "15.230.152.13"
+            }
+        },
+        {
+            "name": "AmazonTechnologiesInc.-15.230.152.103",
+            "meta": {
+                "ip": "15.230.152.103"
+            }
+        },
+        {
+            "name": "???_to_kwansei.ac.jp_10",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "???_to_kwansei.ac.jp_18",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "AmazonTechnologiesInc.-kwansei.ac.jp",
+            "meta": {
+                "ip": "18.172.31.44"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "MULTIFEED-210.173.176.14",
+            "meta": {
+                "ip": "210.173.176.14"
+            }
+        },
+        {
+            "name": "AS2518-133.208.191.150",
+            "meta": {
+                "ip": "133.208.191.150"
+            }
+        },
+        {
+            "name": "AS2518-133.208.161.174",
+            "meta": {
+                "ip": "133.208.161.174"
+            }
+        },
+        {
+            "name": "10.249.48.121",
+            "meta": {
+                "ip": "10.249.48.121"
+            }
+        },
+        {
+            "name": "AS2518-yokohama-cu.ac.jp",
+            "meta": {
+                "ip": "133.208.95.241"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "???_to_dendai.ac.jp_9",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "AS2907-l7fwv154.ntwk.dendai.ac.jp",
+            "meta": {
+                "ip": "133.20.17.145"
+            }
+        },
+        {
+            "name": "AS2907-dendai.ac.jp",
+            "meta": {
+                "ip": "133.20.16.174"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS4713-210.232.233.254",
+            "meta": {
+                "ip": "210.232.233.254"
+            }
+        },
+        {
+            "name": "AS131965-103.3.0.3",
+            "meta": {
+                "ip": "103.3.0.3"
+            }
+        },
+        {
+            "name": "AS131965-kanazawa-u.ac.jp",
+            "meta": {
+                "ip": "162.43.119.73"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AmazonTechnologiesInc.-52.93.251.197",
+            "meta": {
+                "ip": "52.93.251.197"
+            }
+        },
+        {
+            "name": "AmazonTechnologiesInc.-150.222.90.11",
+            "meta": {
+                "ip": "150.222.90.11"
+            }
+        },
+        {
+            "name": "shinshu-u.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "???_to_meiseiu.ac.jp_8",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "???_to_meiseiu.ac.jp_11",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "AmazonTechnologiesInc.-15.230.152.54",
+            "meta": {
+                "ip": "15.230.152.54"
+            }
+        },
+        {
+            "name": "AS16509-meisei-u.ac.jp",
+            "meta": {
+                "ip": "18.65.185.88"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2907-150.99.17.116",
+            "meta": {
+                "ip": "150.99.17.116"
+            }
+        },
+        {
+            "name": "AS2907-mieu2.gw.sinet.ad.jp",
+            "meta": {
+                "ip": "150.99.188.190"
+            }
+        },
+        {
+            "name": "AS24261-gfw.gw.mieu.ac.jp",
+            "meta": {
+                "ip": "192.50.66.11"
+            }
+        },
+        {
+            "name": "AS24261-133.67.2.254",
+            "meta": {
+                "ip": "133.67.2.254"
+            }
+        },
+        {
+            "name": "mie-u.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2907-omu.gw.sinet.ad.jp",
+            "meta": {
+                "ip": "150.99.185.34"
+            }
+        },
+        {
+            "name": "omu.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS7522-115.31.54.81",
+            "meta": {
+                "ip": "115.31.54.81"
+            }
+        },
+        {
+            "name": "AS7522-ryukoku.ac.jp",
+            "meta": {
+                "ip": "219.124.174.194"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "tut.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2907-150.99.3.208",
+            "meta": {
+                "ip": "150.99.3.208"
+            }
+        },
+        {
+            "name": "hirosaki-u.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS4713-61.199.135.94",
+            "meta": {
+                "ip": "61.199.135.94"
+            }
+        },
+        {
+            "name": "AS8075-ae200.icr01.tyo30.ntwk.msn.net",
+            "meta": {
+                "ip": "104.44.236.169"
+            }
+        },
+        {
+            "name": "AS8075-ae1220.icr02.osa31.ntwk.msn.net",
+            "meta": {
+                "ip": "104.44.11.40"
+            }
+        },
+        {
+            "name": "???_to_nagasakiu.ac.jp_12",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "???_to_nagasakiu.ac.jp_16",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "AS8075-nagasaki-u.ac.jp",
+            "meta": {
+                "ip": "20.78.172.3"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AmazonTechnologiesInc.-15.230.152.107",
+            "meta": {
+                "ip": "15.230.152.107"
+            }
+        },
+        {
+            "name": "tcu.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2914-ae6.r03.tokyjp05.jp.bb.gin.ntt.net",
+            "meta": {
+                "ip": "120.88.53.29"
+            }
+        },
+        {
+            "name": "SAKURANET-iskrt205ert201b.bb.sakura.ad.jp",
+            "meta": {
+                "ip": "103.10.114.18"
+            }
+        },
+        {
+            "name": "AS7684-hit-u.ac.jp",
+            "meta": {
+                "ip": "153.127.164.138"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2907-kit1.gw.sinet.ad.jp",
+            "meta": {
+                "ip": "150.99.191.106"
+            }
+        },
+        {
+            "name": "kit.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS8075-ae210.icr01.tyo31.ntwk.msn.net",
+            "meta": {
+                "ip": "104.44.236.175"
+            }
+        },
+        {
+            "name": "???_to_usp.ac.jp_9",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "???_to_usp.ac.jp_13",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "AS8075-usp.ac.jp",
+            "meta": {
+                "ip": "20.210.64.5"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2907-150.99.19.228",
+            "meta": {
+                "ip": "150.99.19.228"
+            }
+        },
+        {
+            "name": "AS2907-133.62.1.42",
+            "meta": {
+                "ip": "133.62.1.42"
+            }
+        },
+        {
+            "name": "yamaguchi-u.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2519-163.139.38.54",
+            "meta": {
+                "ip": "163.139.38.54"
+            }
+        },
+        {
+            "name": "AS2519-163.139.77.98",
+            "meta": {
+                "ip": "163.139.77.98"
+            }
+        },
+        {
+            "name": "AS17506-210.79.13.174",
+            "meta": {
+                "ip": "210.79.13.174"
+            }
+        },
+        {
+            "name": "AS17506-soka.ac.jp",
+            "meta": {
+                "ip": "113.42.230.140"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2907-fukuokakougyouu.gw.sinet.ad.jp",
+            "meta": {
+                "ip": "150.99.195.30"
+            }
+        },
+        {
+            "name": "???_to_fit.ac.jp_10",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "???_to_fit.ac.jp_11",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "AS2907-fit.ac.jp",
+            "meta": {
+                "ip": "150.43.1.6"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2519-163.139.129.66",
+            "meta": {
+                "ip": "163.139.129.66"
+            }
+        },
+        {
+            "name": "AS2519-163.139.128.130",
+            "meta": {
+                "ip": "163.139.128.130"
+            }
+        },
+        {
+            "name": "kawai-juku.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2907-150.99.16.42",
+            "meta": {
+                "ip": "150.99.16.42"
+            }
+        },
+        {
+            "name": "AS2907-shizuoka.gw.sinet.ad.jp",
+            "meta": {
+                "ip": "150.99.198.106"
+            }
+        },
+        {
+            "name": "AS24268-133.70.80.13",
+            "meta": {
+                "ip": "133.70.80.13"
+            }
+        },
+        {
+            "name": "AS24268-shizuoka.ac.jp",
+            "meta": {
+                "ip": "133.70.8.11"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "SAKURANET-sactk1art11tkdrt1b2.bb.sakura.ad.jp",
+            "meta": {
+                "ip": "157.17.136.230"
+            }
+        },
+        {
+            "name": "???_to_hiroshimacu.ac.jp_13",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "AS9370-hiroshima-cu.ac.jp",
+            "meta": {
+                "ip": "153.125.233.90"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS4713-61.118.46.198",
+            "meta": {
+                "ip": "61.118.46.198"
+            }
+        },
+        {
+            "name": "JPNICNETJPERX-133.160.51.26",
+            "meta": {
+                "ip": "133.160.51.26"
+            }
+        },
+        {
+            "name": "JPNICNETJPERX-133.160.138.6",
+            "meta": {
+                "ip": "133.160.138.6"
+            }
+        },
+        {
+            "name": "AS2510-61.121.125.25",
+            "meta": {
+                "ip": "61.121.125.25"
+            }
+        },
+        {
+            "name": "AS2510-komazawa-u.ac.jp",
+            "meta": {
+                "ip": "124.24.38.222"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS4713-211.6.91.54",
+            "meta": {
+                "ip": "211.6.91.54"
+            }
+        },
+        {
+            "name": "AS23785-202.213.37.6",
+            "meta": {
+                "ip": "202.213.37.6"
+            }
+        },
+        {
+            "name": "AS23785-gunma-u.ac.jp",
+            "meta": {
+                "ip": "202.213.39.133"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2907-150.99.8.44",
+            "meta": {
+                "ip": "150.99.8.44"
+            }
+        },
+        {
+            "name": "AS2907-ibarakiu.gw.sinet.ad.jp",
+            "meta": {
+                "ip": "150.99.190.202"
+            }
+        },
+        {
+            "name": "ibaraki.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "u-hyogo.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS2907-150.99.15.152",
+            "meta": {
+                "ip": "150.99.15.152"
+            }
+        },
+        {
+            "name": "gifu-u.ac.jp",
+            "meta": {
+                "ip": "???"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "SAKURANET-sacis1brt11rt201b2.sakura.ad.jp",
+            "meta": {
+                "ip": "103.10.113.178"
+            }
+        },
+        {
+            "name": "???_to_saitamau.ac.jp_15",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "AS7684-saitama-u.ac.jp",
+            "meta": {
+                "ip": "153.127.197.67"
+            },
+            "icon": "./images/ix.png"
+        },
+        {
+            "name": "AS4713-122.1.245.185",
+            "meta": {
+                "ip": "122.1.245.185"
+            }
+        },
+        {
+            "name": "SAKURANET-sacis1art11rt302b1.sakura.ad.jp",
+            "meta": {
+                "ip": "103.10.113.70"
+            }
+        },
+        {
+            "name": "???_to_akitau.ac.jp_15",
+            "meta": {
+                "ip": "???"
+            }
+        },
+        {
+            "name": "AS7684-akita-u.ac.jp",
+            "meta": {
+                "ip": "153.120.95.30"
+            },
+            "icon": "./images/ix.png"
+        }
+    ],
+    "links": [
+        {
+            "source": "192.168.10.1.START",
+            "target": "AS4713-118.23.14.235",
+            "meta": {
+                "interface": {
+                    "source": "u-tokyo.ac.jp",
+                    "target": "u-tokyo.ac.jp"
+                },
+                "bandwidth": "75"
+            }
+        },
+        {
+            "source": "AS4713-118.23.14.235",
+            "target": "AS4713-210.254.188.18",
+            "meta": {
+                "interface": {
+                    "source": "u-tokyo.ac.jp",
+                    "target": "u-tokyo.ac.jp"
+                },
+                "bandwidth": "2"
+            }
+        },
+        {
+            "source": "AS4713-210.254.188.18",
+            "target": "MULTIFEED-210.173.174.130",
+            "meta": {
+                "interface": {
+                    "source": "u-tokyo.ac.jp",
+                    "target": "u-tokyo.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.174.130",
+            "target": "AS2497-tky009bb00.iij.net",
+            "meta": {
+                "interface": {
+                    "source": "u-tokyo.ac.jp",
+                    "target": "u-tokyo.ac.jp"
+                },
+                "bandwidth": "2"
+            }
+        },
+        {
+            "source": "AS2497-tky009bb00.iij.net",
+            "target": "AS2497-210.130.133.166",
+            "meta": {
+                "interface": {
+                    "source": "u-tokyo.ac.jp",
+                    "target": "u-tokyo.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2497-210.130.133.166",
+            "target": "AS2519-163.139.136.67",
+            "meta": {
+                "interface": {
+                    "source": "u-tokyo.ac.jp",
+                    "target": "u-tokyo.ac.jp"
+                },
+                "bandwidth": "2"
+            }
+        },
+        {
+            "source": "AS2519-163.139.136.67",
+            "target": "AS2519-222.230.187.146",
+            "meta": {
+                "interface": {
+                    "source": "u-tokyo.ac.jp",
+                    "target": "u-tokyo.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2519-222.230.187.146",
+            "target": "???_to_utokyo.ac.jp_14",
+            "meta": {
+                "interface": {
+                    "source": "u-tokyo.ac.jp",
+                    "target": "u-tokyo.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_utokyo.ac.jp_14",
+            "target": "???_to_utokyo.ac.jp_16",
+            "meta": {
+                "interface": {
+                    "source": "u-tokyo.ac.jp",
+                    "target": "u-tokyo.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_utokyo.ac.jp_16",
+            "target": "AS4694-158.205.121.46",
+            "meta": {
+                "interface": {
+                    "source": "u-tokyo.ac.jp",
+                    "target": "u-tokyo.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4694-158.205.121.46",
+            "target": "u-tokyo.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "u-tokyo.ac.jp",
+                    "target": "u-tokyo.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-118.23.14.235",
+            "target": "AS4713-122.1.245.181",
+            "meta": {
+                "interface": {
+                    "source": "kyoto-u.ac.jp",
+                    "target": "kyoto-u.ac.jp"
+                },
+                "bandwidth": "4"
+            }
+        },
+        {
+            "source": "AS4713-122.1.245.181",
+            "target": "AS2914-ae6.r02.tokyjp05.jp.bb.gin.ntt.net",
+            "meta": {
+                "interface": {
+                    "source": "kyoto-u.ac.jp",
+                    "target": "kyoto-u.ac.jp"
+                },
+                "bandwidth": "2"
+            }
+        },
+        {
+            "source": "AS2914-ae6.r02.tokyjp05.jp.bb.gin.ntt.net",
+            "target": "AS2914-ae1.fastly.tokyjp08.jp.bb.gin.ntt.net",
+            "meta": {
+                "interface": {
+                    "source": "kyoto-u.ac.jp",
+                    "target": "kyoto-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2914-ae1.fastly.tokyjp08.jp.bb.gin.ntt.net",
+            "target": "AS54113-kyoto-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "kyoto-u.ac.jp",
+                    "target": "kyoto-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-118.23.14.235",
+            "target": "AS4713-60.37.54.182",
+            "meta": {
+                "interface": {
+                    "source": "keio.ac.jp",
+                    "target": "keio.ac.jp"
+                },
+                "bandwidth": "22"
+            }
+        },
+        {
+            "source": "AS4713-60.37.54.182",
+            "target": "MULTIFEED-210.173.176.94",
+            "meta": {
+                "interface": {
+                    "source": "keio.ac.jp",
+                    "target": "keio.ac.jp"
+                },
+                "bandwidth": "18"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.94",
+            "target": "AS2907-150.99.11.32",
+            "meta": {
+                "interface": {
+                    "source": "keio.ac.jp",
+                    "target": "keio.ac.jp"
+                },
+                "bandwidth": "2"
+            }
+        },
+        {
+            "source": "AS2907-150.99.11.32",
+            "target": "AS2907-keioshinanomachi.gw.sinet.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "keio.ac.jp",
+                    "target": "keio.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-keioshinanomachi.gw.sinet.ad.jp",
+            "target": "AS38635-bbyagamicore0sc.bb.keio.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "keio.ac.jp",
+                    "target": "keio.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS38635-bbyagamicore0sc.bb.keio.ac.jp",
+            "target": "AS38635-vmygsw1new.itc.keio.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "keio.ac.jp",
+                    "target": "keio.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS38635-vmygsw1new.itc.keio.ac.jp",
+            "target": "keio.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "keio.ac.jp",
+                    "target": "keio.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-118.23.14.235",
+            "target": "AS4713-122.1.245.14",
+            "meta": {
+                "interface": {
+                    "source": "nii.ac.jp",
+                    "target": "nii.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-122.1.245.14",
+            "target": "MULTIFEED-210.173.177.19",
+            "meta": {
+                "interface": {
+                    "source": "nii.ac.jp",
+                    "target": "nii.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.177.19",
+            "target": "AmazonTechnologiesInc.-150.222.77.187",
+            "meta": {
+                "interface": {
+                    "source": "nii.ac.jp",
+                    "target": "nii.ac.jp"
+                },
+                "bandwidth": "2"
+            }
+        },
+        {
+            "source": "AmazonTechnologiesInc.-150.222.77.187",
+            "target": "AmazonTechnologiesInc.-52.93.66.83",
+            "meta": {
+                "interface": {
+                    "source": "nii.ac.jp",
+                    "target": "nii.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AmazonTechnologiesInc.-52.93.66.83",
+            "target": "nii.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "nii.ac.jp",
+                    "target": "nii.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-118.23.14.235",
+            "target": "AS4713-210.254.188.22",
+            "meta": {
+                "interface": {
+                    "source": "tohoku.ac.jp",
+                    "target": "tohoku.ac.jp"
+                },
+                "bandwidth": "16"
+            }
+        },
+        {
+            "source": "AS4713-210.254.188.22",
+            "target": "MULTIFEED-210.173.176.94",
+            "meta": {
+                "interface": {
+                    "source": "tohoku.ac.jp",
+                    "target": "tohoku.ac.jp"
+                },
+                "bandwidth": "15"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.94",
+            "target": "AS2907-150.99.5.86",
+            "meta": {
+                "interface": {
+                    "source": "tohoku.ac.jp",
+                    "target": "tohoku.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-150.99.5.86",
+            "target": "tohoku.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "tohoku.ac.jp",
+                    "target": "tohoku.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-118.23.14.235",
+            "target": "AS4713-122.28.104.122",
+            "meta": {
+                "interface": {
+                    "source": "tsukuba.ac.jp",
+                    "target": "tsukuba.ac.jp"
+                },
+                "bandwidth": "4"
+            }
+        },
+        {
+            "source": "AS4713-122.28.104.122",
+            "target": "MULTIFEED-210.173.176.188",
+            "meta": {
+                "interface": {
+                    "source": "tsukuba.ac.jp",
+                    "target": "tsukuba.ac.jp"
+                },
+                "bandwidth": "2"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.188",
+            "target": "AmazonTechnologiesInc.-150.222.90.119",
+            "meta": {
+                "interface": {
+                    "source": "tsukuba.ac.jp",
+                    "target": "tsukuba.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AmazonTechnologiesInc.-150.222.90.119",
+            "target": "AmazonTechnologiesInc.-150.222.90.39",
+            "meta": {
+                "interface": {
+                    "source": "tsukuba.ac.jp",
+                    "target": "tsukuba.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AmazonTechnologiesInc.-150.222.90.39",
+            "target": "???_to_tsukuba.ac.jp_10",
+            "meta": {
+                "interface": {
+                    "source": "tsukuba.ac.jp",
+                    "target": "tsukuba.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_tsukuba.ac.jp_10",
+            "target": "???_to_tsukuba.ac.jp_18",
+            "meta": {
+                "interface": {
+                    "source": "tsukuba.ac.jp",
+                    "target": "tsukuba.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_tsukuba.ac.jp_18",
+            "target": "AmazonTechnologiesInc.-tsukuba.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "tsukuba.ac.jp",
+                    "target": "tsukuba.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.94",
+            "target": "AS2907-150.99.18.88",
+            "meta": {
+                "interface": {
+                    "source": "osaka-u.ac.jp",
+                    "target": "osaka-u.ac.jp"
+                },
+                "bandwidth": "3"
+            }
+        },
+        {
+            "source": "AS2907-150.99.18.88",
+            "target": "AS4730-133.1.0.11",
+            "meta": {
+                "interface": {
+                    "source": "osaka-u.ac.jp",
+                    "target": "osaka-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4730-133.1.0.11",
+            "target": "AS4730-133.1.10.34",
+            "meta": {
+                "interface": {
+                    "source": "osaka-u.ac.jp",
+                    "target": "osaka-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4730-133.1.10.34",
+            "target": "osaka-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "osaka-u.ac.jp",
+                    "target": "osaka-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.94",
+            "target": "AS2907-150.99.20.146",
+            "meta": {
+                "interface": {
+                    "source": "kyushu-u.ac.jp",
+                    "target": "kyushu-u.ac.jp"
+                },
+                "bandwidth": "3"
+            }
+        },
+        {
+            "source": "AS2907-150.99.20.146",
+            "target": "AS2907-kyushuu.gw.sinet.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "kyushu-u.ac.jp",
+                    "target": "kyushu-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-kyushuu.gw.sinet.ad.jp",
+            "target": "kyushu-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "kyushu-u.ac.jp",
+                    "target": "kyushu-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2914-ae6.r02.tokyjp05.jp.bb.gin.ntt.net",
+            "target": "AS2914-ae38.r01.tokyjp08.jp.ce.gin.ntt.net",
+            "meta": {
+                "interface": {
+                    "source": "hiroshima-u.ac.jp",
+                    "target": "hiroshima-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2914-ae38.r01.tokyjp08.jp.ce.gin.ntt.net",
+            "target": "AS54113-hiroshima-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "hiroshima-u.ac.jp",
+                    "target": "hiroshima-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.94",
+            "target": "AS2907-150.99.16.246",
+            "meta": {
+                "interface": {
+                    "source": "nagoya-u.ac.jp",
+                    "target": "nagoya-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-150.99.16.246",
+            "target": "nagoya-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "nagoya-u.ac.jp",
+                    "target": "nagoya-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.94",
+            "target": "AS2907-150.99.0.142",
+            "meta": {
+                "interface": {
+                    "source": "hokudai.ac.jp",
+                    "target": "hokudai.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-150.99.0.142",
+            "target": "AS2907-hokudaihinet.gw.sinet.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "hokudai.ac.jp",
+                    "target": "hokudai.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-hokudaihinet.gw.sinet.ad.jp",
+            "target": "hokudai.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "hokudai.ac.jp",
+                    "target": "hokudai.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.94",
+            "target": "AS2907-150.99.10.186",
+            "meta": {
+                "interface": {
+                    "source": "titech.ac.jp",
+                    "target": "titech.ac.jp"
+                },
+                "bandwidth": "2"
+            }
+        },
+        {
+            "source": "AS2907-150.99.10.186",
+            "target": "AS2907-titech.gw.sinet.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "titech.ac.jp",
+                    "target": "titech.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-titech.gw.sinet.ad.jp",
+            "target": "titech.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "titech.ac.jp",
+                    "target": "titech.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.94",
+            "target": "AS2907-150.99.18.140",
+            "meta": {
+                "interface": {
+                    "source": "kobe-u.ac.jp",
+                    "target": "kobe-u.ac.jp"
+                },
+                "bandwidth": "2"
+            }
+        },
+        {
+            "source": "AS2907-150.99.18.140",
+            "target": "kobe-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "kobe-u.ac.jp",
+                    "target": "kobe-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.94",
+            "target": "AS2907-150.99.18.34",
+            "meta": {
+                "interface": {
+                    "source": "ritsumei.ac.jp",
+                    "target": "ritsumei.ac.jp"
+                },
+                "bandwidth": "2"
+            }
+        },
+        {
+            "source": "AS2907-150.99.18.34",
+            "target": "AS2907-ritsumei.dc.gw.sinet.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "ritsumei.ac.jp",
+                    "target": "ritsumei.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-ritsumei.dc.gw.sinet.ad.jp",
+            "target": "ritsumei.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "ritsumei.ac.jp",
+                    "target": "ritsumei.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-118.23.14.235",
+            "target": "AS4713-u-fukui.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "u-fukui.ac.jp",
+                    "target": "u-fukui.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.94",
+            "target": "AS2907-150.99.19.154",
+            "meta": {
+                "interface": {
+                    "source": "okayama-u.ac.jp",
+                    "target": "okayama-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-150.99.19.154",
+            "target": "okayama-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "okayama-u.ac.jp",
+                    "target": "okayama-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.188",
+            "target": "AmazonTechnologiesInc.-150.222.90.121",
+            "meta": {
+                "interface": {
+                    "source": "kumamoto-u.ac.jp",
+                    "target": "kumamoto-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AmazonTechnologiesInc.-150.222.90.121",
+            "target": "AmazonTechnologiesInc.-52.95.30.26",
+            "meta": {
+                "interface": {
+                    "source": "kumamoto-u.ac.jp",
+                    "target": "kumamoto-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AmazonTechnologiesInc.-52.95.30.26",
+            "target": "???_to_kumamotou.ac.jp_10",
+            "meta": {
+                "interface": {
+                    "source": "kumamoto-u.ac.jp",
+                    "target": "kumamoto-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_kumamotou.ac.jp_10",
+            "target": "???_to_kumamotou.ac.jp_14",
+            "meta": {
+                "interface": {
+                    "source": "kumamoto-u.ac.jp",
+                    "target": "kumamoto-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_kumamotou.ac.jp_14",
+            "target": "AmazonTechnologiesInc.-15.230.152.56",
+            "meta": {
+                "interface": {
+                    "source": "kumamoto-u.ac.jp",
+                    "target": "kumamoto-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AmazonTechnologiesInc.-15.230.152.56",
+            "target": "AS16509-kumamoto-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "kumamoto-u.ac.jp",
+                    "target": "kumamoto-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-118.23.14.235",
+            "target": "AS4713-60.37.54.178",
+            "meta": {
+                "interface": {
+                    "source": "fukuoka-u.ac.jp",
+                    "target": "fukuoka-u.ac.jp"
+                },
+                "bandwidth": "7"
+            }
+        },
+        {
+            "source": "AS4713-60.37.54.178",
+            "target": "MULTIFEED-210.173.174.130",
+            "meta": {
+                "interface": {
+                    "source": "fukuoka-u.ac.jp",
+                    "target": "fukuoka-u.ac.jp"
+                },
+                "bandwidth": "4"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.174.130",
+            "target": "AS2497-tky009bb01.iij.net",
+            "meta": {
+                "interface": {
+                    "source": "fukuoka-u.ac.jp",
+                    "target": "fukuoka-u.ac.jp"
+                },
+                "bandwidth": "3"
+            }
+        },
+        {
+            "source": "AS2497-tky009bb01.iij.net",
+            "target": "AS2497-fukuoka-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "fukuoka-u.ac.jp",
+                    "target": "fukuoka-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-118.23.14.235",
+            "target": "AS4713-118.23.168.142",
+            "meta": {
+                "interface": {
+                    "source": "wide.ad.jp",
+                    "target": "wide.ad.jp"
+                },
+                "bandwidth": "2"
+            }
+        },
+        {
+            "source": "AS4713-118.23.168.142",
+            "target": "AS2500-as2500.dixie.jp",
+            "meta": {
+                "interface": {
+                    "source": "wide.ad.jp",
+                    "target": "wide.ad.jp"
+                },
+                "bandwidth": "2"
+            }
+        },
+        {
+            "source": "AS2500-as2500.dixie.jp",
+            "target": "AS2500-wide.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "wide.ad.jp",
+                    "target": "wide.ad.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.94",
+            "target": "AS2907-150.99.9.124",
+            "meta": {
+                "interface": {
+                    "source": "rikkyo.ac.jp",
+                    "target": "rikkyo.ac.jp"
+                },
+                "bandwidth": "2"
+            }
+        },
+        {
+            "source": "AS2907-150.99.9.124",
+            "target": "AS2907-rikkyo.gw.sinet.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "rikkyo.ac.jp",
+                    "target": "rikkyo.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-rikkyo.gw.sinet.ad.jp",
+            "target": "rikkyo.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "rikkyo.ac.jp",
+                    "target": "rikkyo.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.94",
+            "target": "AS2907-150.99.13.0",
+            "meta": {
+                "interface": {
+                    "source": "niigata-u.ac.jp",
+                    "target": "niigata-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-150.99.13.0",
+            "target": "AS2907-niigatau.gw.sinet.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "niigata-u.ac.jp",
+                    "target": "niigata-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-niigatau.gw.sinet.ad.jp",
+            "target": "???_to_niigatau.ac.jp_10",
+            "meta": {
+                "interface": {
+                    "source": "niigata-u.ac.jp",
+                    "target": "niigata-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_niigatau.ac.jp_10",
+            "target": "AS2907-niigata-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "niigata-u.ac.jp",
+                    "target": "niigata-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.94",
+            "target": "AS2907-150.99.6.80",
+            "meta": {
+                "interface": {
+                    "source": "yamagata-u.ac.jp",
+                    "target": "yamagata-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-150.99.6.80",
+            "target": "AS2907-yamagatau.gw.sinet.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "yamagata-u.ac.jp",
+                    "target": "yamagata-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-yamagatau.gw.sinet.ad.jp",
+            "target": "AS131159-133.24.250.49",
+            "meta": {
+                "interface": {
+                    "source": "yamagata-u.ac.jp",
+                    "target": "yamagata-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS131159-133.24.250.49",
+            "target": "yamagata-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "yamagata-u.ac.jp",
+                    "target": "yamagata-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-60.37.54.178",
+            "target": "MULTIFEED-210.173.177.18",
+            "meta": {
+                "interface": {
+                    "source": "kindai.ac.jp",
+                    "target": "kindai.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.177.18",
+            "target": "AmazonTechnologiesInc.-52.93.251.201",
+            "meta": {
+                "interface": {
+                    "source": "kindai.ac.jp",
+                    "target": "kindai.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AmazonTechnologiesInc.-52.93.251.201",
+            "target": "AmazonTechnologiesInc.-52.95.30.32",
+            "meta": {
+                "interface": {
+                    "source": "kindai.ac.jp",
+                    "target": "kindai.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AmazonTechnologiesInc.-52.95.30.32",
+            "target": "kindai.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "kindai.ac.jp",
+                    "target": "kindai.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-118.23.14.235",
+            "target": "AS4713-118.23.168.137",
+            "meta": {
+                "interface": {
+                    "source": "tus.ac.jp",
+                    "target": "tus.ac.jp"
+                },
+                "bandwidth": "2"
+            }
+        },
+        {
+            "source": "AS4713-118.23.168.137",
+            "target": "AS2914-ae5.r02.tokyjp05.jp.bb.gin.ntt.net",
+            "meta": {
+                "interface": {
+                    "source": "tus.ac.jp",
+                    "target": "tus.ac.jp"
+                },
+                "bandwidth": "2"
+            }
+        },
+        {
+            "source": "AS2914-ae5.r02.tokyjp05.jp.bb.gin.ntt.net",
+            "target": "AS2914-ce01402.r01.tokyjp08.jp.ce.gin.ntt.net",
+            "meta": {
+                "interface": {
+                    "source": "tus.ac.jp",
+                    "target": "tus.ac.jp"
+                },
+                "bandwidth": "3"
+            }
+        },
+        {
+            "source": "AS2914-ce01402.r01.tokyjp08.jp.ce.gin.ntt.net",
+            "target": "SAKURANET-tkwrt301sbrt1.bb.sakura.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "tus.ac.jp",
+                    "target": "tus.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "SAKURANET-tkwrt301sbrt1.bb.sakura.ad.jp",
+            "target": "SAKURANET-sactk1art11tkdrt1b1.bb.sakura.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "tus.ac.jp",
+                    "target": "tus.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "SAKURANET-sactk1art11tkdrt1b1.bb.sakura.ad.jp",
+            "target": "???_to_tus.ac.jp_13",
+            "meta": {
+                "interface": {
+                    "source": "tus.ac.jp",
+                    "target": "tus.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_tus.ac.jp_13",
+            "target": "AS9370-tus.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "tus.ac.jp",
+                    "target": "tus.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2497-tky009bb01.iij.net",
+            "target": "AS2497-210.130.134.118",
+            "meta": {
+                "interface": {
+                    "source": "hosei.ac.jp",
+                    "target": "hosei.ac.jp"
+                },
+                "bandwidth": "3"
+            }
+        },
+        {
+            "source": "AS2497-210.130.134.118",
+            "target": "AS2519-163.139.130.218",
+            "meta": {
+                "interface": {
+                    "source": "hosei.ac.jp",
+                    "target": "hosei.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2519-163.139.130.218",
+            "target": "AS2519-222.230.187.198",
+            "meta": {
+                "interface": {
+                    "source": "hosei.ac.jp",
+                    "target": "hosei.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2519-222.230.187.198",
+            "target": "???_to_hosei.ac.jp_14",
+            "meta": {
+                "interface": {
+                    "source": "hosei.ac.jp",
+                    "target": "hosei.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_hosei.ac.jp_14",
+            "target": "???_to_hosei.ac.jp_16",
+            "meta": {
+                "interface": {
+                    "source": "hosei.ac.jp",
+                    "target": "hosei.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_hosei.ac.jp_16",
+            "target": "AS4694-158.205.83.66",
+            "meta": {
+                "interface": {
+                    "source": "hosei.ac.jp",
+                    "target": "hosei.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4694-158.205.83.66",
+            "target": "hosei.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "hosei.ac.jp",
+                    "target": "hosei.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-60.37.54.178",
+            "target": "MULTIFEED-210.173.176.188",
+            "meta": {
+                "interface": {
+                    "source": "u-tokai.ac.jp",
+                    "target": "u-tokai.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.188",
+            "target": "AmazonTechnologiesInc.-150.222.90.123",
+            "meta": {
+                "interface": {
+                    "source": "u-tokai.ac.jp",
+                    "target": "u-tokai.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AmazonTechnologiesInc.-150.222.90.123",
+            "target": "AmazonTechnologiesInc.-150.222.90.43",
+            "meta": {
+                "interface": {
+                    "source": "u-tokai.ac.jp",
+                    "target": "u-tokai.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AmazonTechnologiesInc.-150.222.90.43",
+            "target": "???_to_utokai.ac.jp_10",
+            "meta": {
+                "interface": {
+                    "source": "u-tokai.ac.jp",
+                    "target": "u-tokai.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_utokai.ac.jp_10",
+            "target": "AmazonTechnologiesInc.-52.95.31.67",
+            "meta": {
+                "interface": {
+                    "source": "u-tokai.ac.jp",
+                    "target": "u-tokai.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AmazonTechnologiesInc.-52.95.31.67",
+            "target": "AmazonTechnologiesInc.-150.222.105.11",
+            "meta": {
+                "interface": {
+                    "source": "u-tokai.ac.jp",
+                    "target": "u-tokai.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AmazonTechnologiesInc.-150.222.105.11",
+            "target": "???_to_utokai.ac.jp_13",
+            "meta": {
+                "interface": {
+                    "source": "u-tokai.ac.jp",
+                    "target": "u-tokai.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_utokai.ac.jp_13",
+            "target": "???_to_utokai.ac.jp_17",
+            "meta": {
+                "interface": {
+                    "source": "u-tokai.ac.jp",
+                    "target": "u-tokai.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_utokai.ac.jp_17",
+            "target": "AS16509-u-tokai.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "u-tokai.ac.jp",
+                    "target": "u-tokai.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.94",
+            "target": "AS2907-150.99.11.230",
+            "meta": {
+                "interface": {
+                    "source": "uec.ac.jp",
+                    "target": "uec.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-150.99.11.230",
+            "target": "AS2907-uec.gw.sinet.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "uec.ac.jp",
+                    "target": "uec.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-uec.gw.sinet.ad.jp",
+            "target": "???_to_uec.ac.jp_10",
+            "meta": {
+                "interface": {
+                    "source": "uec.ac.jp",
+                    "target": "uec.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_uec.ac.jp_10",
+            "target": "???_to_uec.ac.jp_11",
+            "meta": {
+                "interface": {
+                    "source": "uec.ac.jp",
+                    "target": "uec.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_uec.ac.jp_11",
+            "target": "AS2907-uec.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "uec.ac.jp",
+                    "target": "uec.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-150.99.11.32",
+            "target": "AS2907-utnet2.gw.sinet.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "umin.ac.jp",
+                    "target": "umin.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-utnet2.gw.sinet.ad.jp",
+            "target": "AS2501-ra3afe010.nc.utokyo.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "umin.ac.jp",
+                    "target": "umin.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2501-ra3afe010.nc.utokyo.ac.jp",
+            "target": "AS2501-ra51vlan3001.nc.utokyo.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "umin.ac.jp",
+                    "target": "umin.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2501-ra51vlan3001.nc.utokyo.ac.jp",
+            "target": "???_to_umin.ac.jp_14",
+            "meta": {
+                "interface": {
+                    "source": "umin.ac.jp",
+                    "target": "umin.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_umin.ac.jp_14",
+            "target": "???_to_umin.ac.jp_16",
+            "meta": {
+                "interface": {
+                    "source": "umin.ac.jp",
+                    "target": "umin.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_umin.ac.jp_16",
+            "target": "AS2501-umin.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "umin.ac.jp",
+                    "target": "umin.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-60.37.54.182",
+            "target": "MULTIFEED-210.173.174.138",
+            "meta": {
+                "interface": {
+                    "source": "kyutech.ac.jp",
+                    "target": "kyutech.ac.jp"
+                },
+                "bandwidth": "2"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.174.138",
+            "target": "AS2497-tky009bb01.iij.net",
+            "meta": {
+                "interface": {
+                    "source": "kyutech.ac.jp",
+                    "target": "kyutech.ac.jp"
+                },
+                "bandwidth": "2"
+            }
+        },
+        {
+            "source": "AS2497-tky009bb01.iij.net",
+            "target": "AS2497-210.130.133.166",
+            "meta": {
+                "interface": {
+                    "source": "kyutech.ac.jp",
+                    "target": "kyutech.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2519-163.139.136.67",
+            "target": "AS2519-222.230.187.142",
+            "meta": {
+                "interface": {
+                    "source": "kyutech.ac.jp",
+                    "target": "kyutech.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2519-222.230.187.142",
+            "target": "???_to_kyutech.ac.jp_14",
+            "meta": {
+                "interface": {
+                    "source": "kyutech.ac.jp",
+                    "target": "kyutech.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_kyutech.ac.jp_14",
+            "target": "???_to_kyutech.ac.jp_16",
+            "meta": {
+                "interface": {
+                    "source": "kyutech.ac.jp",
+                    "target": "kyutech.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_kyutech.ac.jp_16",
+            "target": "AS4694-158.205.121.38",
+            "meta": {
+                "interface": {
+                    "source": "kyutech.ac.jp",
+                    "target": "kyutech.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4694-158.205.121.38",
+            "target": "AS4694-kyutech.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "kyutech.ac.jp",
+                    "target": "kyutech.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-122.28.104.122",
+            "target": "MULTIFEED-210.173.176.198",
+            "meta": {
+                "interface": {
+                    "source": "meiji.ac.jp",
+                    "target": "meiji.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.198",
+            "target": "AmazonTechnologiesInc.-15.230.152.9",
+            "meta": {
+                "interface": {
+                    "source": "meiji.ac.jp",
+                    "target": "meiji.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AmazonTechnologiesInc.-15.230.152.9",
+            "target": "AmazonTechnologiesInc.-52.93.66.143",
+            "meta": {
+                "interface": {
+                    "source": "meiji.ac.jp",
+                    "target": "meiji.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AmazonTechnologiesInc.-52.93.66.143",
+            "target": "???_to_meiji.ac.jp_10",
+            "meta": {
+                "interface": {
+                    "source": "meiji.ac.jp",
+                    "target": "meiji.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_meiji.ac.jp_10",
+            "target": "AmazonTechnologiesInc.-52.95.31.31",
+            "meta": {
+                "interface": {
+                    "source": "meiji.ac.jp",
+                    "target": "meiji.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AmazonTechnologiesInc.-52.95.31.31",
+            "target": "AmazonTechnologiesInc.-52.93.250.199",
+            "meta": {
+                "interface": {
+                    "source": "meiji.ac.jp",
+                    "target": "meiji.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AmazonTechnologiesInc.-52.93.250.199",
+            "target": "???_to_meiji.ac.jp_13",
+            "meta": {
+                "interface": {
+                    "source": "meiji.ac.jp",
+                    "target": "meiji.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_meiji.ac.jp_13",
+            "target": "???_to_meiji.ac.jp_17",
+            "meta": {
+                "interface": {
+                    "source": "meiji.ac.jp",
+                    "target": "meiji.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_meiji.ac.jp_17",
+            "target": "AS16509-meiji.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "meiji.ac.jp",
+                    "target": "meiji.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.94",
+            "target": "AS2907-150.99.6.202",
+            "meta": {
+                "interface": {
+                    "source": "fukushima-u.ac.jp",
+                    "target": "fukushima-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-150.99.6.202",
+            "target": "fukushima-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "fukushima-u.ac.jp",
+                    "target": "fukushima-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.94",
+            "target": "AS2907-150.99.12.70",
+            "meta": {
+                "interface": {
+                    "source": "kanagawa-u.ac.jp",
+                    "target": "kanagawa-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-150.99.12.70",
+            "target": "AS2907-kanagawau.gw.sinet.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "kanagawa-u.ac.jp",
+                    "target": "kanagawa-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-kanagawau.gw.sinet.ad.jp",
+            "target": "kanagawa-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "kanagawa-u.ac.jp",
+                    "target": "kanagawa-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-118.23.14.235",
+            "target": "AS4713-122.1.245.10",
+            "meta": {
+                "interface": {
+                    "source": "nihon-u.ac.jp",
+                    "target": "nihon-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-122.1.245.10",
+            "target": "AS15169-142.250.167.141",
+            "meta": {
+                "interface": {
+                    "source": "nihon-u.ac.jp",
+                    "target": "nihon-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS15169-142.250.167.141",
+            "target": "AS15169-142.251.226.141",
+            "meta": {
+                "interface": {
+                    "source": "nihon-u.ac.jp",
+                    "target": "nihon-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS15169-142.251.226.141",
+            "target": "AS396982-nihon-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "nihon-u.ac.jp",
+                    "target": "nihon-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-118.23.14.235",
+            "target": "AS4713-122.1.245.210",
+            "meta": {
+                "interface": {
+                    "source": "jaist.ac.jp",
+                    "target": "jaist.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-122.1.245.210",
+            "target": "AS2500-as2500.dixie.jp",
+            "meta": {
+                "interface": {
+                    "source": "jaist.ac.jp",
+                    "target": "jaist.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2500-as2500.dixie.jp",
+            "target": "AS2500-po2802.ct68.jaist.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "jaist.ac.jp",
+                    "target": "jaist.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2500-po2802.ct68.jaist.ac.jp",
+            "target": "AS17932-150.65.254.90",
+            "meta": {
+                "interface": {
+                    "source": "jaist.ac.jp",
+                    "target": "jaist.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS17932-150.65.254.90",
+            "target": "AS17932-jaist.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "jaist.ac.jp",
+                    "target": "jaist.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2500-as2500.dixie.jp",
+            "target": "AS2500-nao.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "nao.ac.jp",
+                    "target": "nao.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2914-ce01402.r01.tokyjp08.jp.ce.gin.ntt.net",
+            "target": "SAKURANET-tkort4brt1.bb.sakura.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "nitech.ac.jp",
+                    "target": "nitech.ac.jp"
+                },
+                "bandwidth": "4"
+            }
+        },
+        {
+            "source": "SAKURANET-tkort4brt1.bb.sakura.ad.jp",
+            "target": "SAKURANET-sacis1art11rt301b2.sakura.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "nitech.ac.jp",
+                    "target": "nitech.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "SAKURANET-sacis1art11rt301b2.sakura.ad.jp",
+            "target": "???_to_nitech.ac.jp_15",
+            "meta": {
+                "interface": {
+                    "source": "nitech.ac.jp",
+                    "target": "nitech.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_nitech.ac.jp_15",
+            "target": "AS7684-nitech.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "nitech.ac.jp",
+                    "target": "nitech.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.94",
+            "target": "AS2907-150.99.21.2",
+            "meta": {
+                "interface": {
+                    "source": "u-ryukyu.ac.jp",
+                    "target": "u-ryukyu.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-150.99.21.2",
+            "target": "AS2907-uryukyu.gw.sinet.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "u-ryukyu.ac.jp",
+                    "target": "u-ryukyu.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-uryukyu.gw.sinet.ad.jp",
+            "target": "AS17960-133.13.63.242",
+            "meta": {
+                "interface": {
+                    "source": "u-ryukyu.ac.jp",
+                    "target": "u-ryukyu.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS17960-133.13.63.242",
+            "target": "u-ryukyu.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "u-ryukyu.ac.jp",
+                    "target": "u-ryukyu.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-118.23.14.235",
+            "target": "AS4713-118.23.168.133",
+            "meta": {
+                "interface": {
+                    "source": "chiba-u.ac.jp",
+                    "target": "chiba-u.ac.jp"
+                },
+                "bandwidth": "2"
+            }
+        },
+        {
+            "source": "AS4713-118.23.168.133",
+            "target": "AS2914-ae5.r03.tokyjp05.jp.bb.gin.ntt.net",
+            "meta": {
+                "interface": {
+                    "source": "chiba-u.ac.jp",
+                    "target": "chiba-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2914-ae5.r03.tokyjp05.jp.bb.gin.ntt.net",
+            "target": "AS2914-ce01402.r01.tokyjp08.jp.ce.gin.ntt.net",
+            "meta": {
+                "interface": {
+                    "source": "chiba-u.ac.jp",
+                    "target": "chiba-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2914-ce01402.r01.tokyjp08.jp.ce.gin.ntt.net",
+            "target": "SAKURANET-tkgrt1sbrt1.bb.sakura.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "chiba-u.ac.jp",
+                    "target": "chiba-u.ac.jp"
+                },
+                "bandwidth": "2"
+            }
+        },
+        {
+            "source": "SAKURANET-tkgrt1sbrt1.bb.sakura.ad.jp",
+            "target": "SAKURANET-sactk1art11tkdrt2b1.bb.sakura.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "chiba-u.ac.jp",
+                    "target": "chiba-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "SAKURANET-sactk1art11tkdrt2b1.bb.sakura.ad.jp",
+            "target": "???_to_chibau.ac.jp_13",
+            "meta": {
+                "interface": {
+                    "source": "chiba-u.ac.jp",
+                    "target": "chiba-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_chibau.ac.jp_13",
+            "target": "AS9370-chiba-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "chiba-u.ac.jp",
+                    "target": "chiba-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-150.99.18.88",
+            "target": "AS2907-kansaiu.gw.sinet.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "kansai-u.ac.jp",
+                    "target": "kansai-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-kansaiu.gw.sinet.ad.jp",
+            "target": "kansai-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "kansai-u.ac.jp",
+                    "target": "kansai-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2497-210.130.134.118",
+            "target": "teikyo-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "teikyo-u.ac.jp",
+                    "target": "teikyo-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-118.23.14.235",
+            "target": "AS4713-125.206.183.198",
+            "meta": {
+                "interface": {
+                    "source": "ehime-u.ac.jp",
+                    "target": "ehime-u.ac.jp"
+                },
+                "bandwidth": "2"
+            }
+        },
+        {
+            "source": "AS4713-125.206.183.198",
+            "target": "AS7522-115.31.54.162",
+            "meta": {
+                "interface": {
+                    "source": "ehime-u.ac.jp",
+                    "target": "ehime-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS7522-115.31.54.162",
+            "target": "AS7522-host090.ip110.stnet.ne.jp",
+            "meta": {
+                "interface": {
+                    "source": "ehime-u.ac.jp",
+                    "target": "ehime-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS7522-host090.ip110.stnet.ne.jp",
+            "target": "AS18260-219.109.60.10.user.ecatv.ne.jp",
+            "meta": {
+                "interface": {
+                    "source": "ehime-u.ac.jp",
+                    "target": "ehime-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS18260-219.109.60.10.user.ecatv.ne.jp",
+            "target": "ehime-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "ehime-u.ac.jp",
+                    "target": "ehime-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-118.23.14.235",
+            "target": "AS4713-61.199.135.106",
+            "meta": {
+                "interface": {
+                    "source": "chuo-u.ac.jp",
+                    "target": "chuo-u.ac.jp"
+                },
+                "bandwidth": "2"
+            }
+        },
+        {
+            "source": "AS4713-61.199.135.106",
+            "target": "AS8075-ae200.icr02.tyo30.ntwk.msn.net",
+            "meta": {
+                "interface": {
+                    "source": "chuo-u.ac.jp",
+                    "target": "chuo-u.ac.jp"
+                },
+                "bandwidth": "2"
+            }
+        },
+        {
+            "source": "AS8075-ae200.icr02.tyo30.ntwk.msn.net",
+            "target": "???_to_chuou.ac.jp_9",
+            "meta": {
+                "interface": {
+                    "source": "chuo-u.ac.jp",
+                    "target": "chuo-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_chuou.ac.jp_9",
+            "target": "???_to_chuou.ac.jp_13",
+            "meta": {
+                "interface": {
+                    "source": "chuo-u.ac.jp",
+                    "target": "chuo-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_chuou.ac.jp_13",
+            "target": "AS8075-chuo-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "chuo-u.ac.jp",
+                    "target": "chuo-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.94",
+            "target": "AS2907-150.99.20.248",
+            "meta": {
+                "interface": {
+                    "source": "kagoshima-u.ac.jp",
+                    "target": "kagoshima-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-150.99.20.248",
+            "target": "AS2907-kagoshimau.gw.sinet.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "kagoshima-u.ac.jp",
+                    "target": "kagoshima-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-kagoshimau.gw.sinet.ad.jp",
+            "target": "kagoshima-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "kagoshima-u.ac.jp",
+                    "target": "kagoshima-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-150.99.20.146",
+            "target": "kyusan-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "kyusan-u.ac.jp",
+                    "target": "kyusan-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-150.99.10.186",
+            "target": "AS2907-toyo.gw.sinet.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "toyo.ac.jp",
+                    "target": "toyo.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-toyo.gw.sinet.ad.jp",
+            "target": "AS18087-133.79.7.251",
+            "meta": {
+                "interface": {
+                    "source": "toyo.ac.jp",
+                    "target": "toyo.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS18087-133.79.7.251",
+            "target": "AS18087-toyo.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "toyo.ac.jp",
+                    "target": "toyo.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-210.254.188.22",
+            "target": "MULTIFEED-210.173.176.37",
+            "meta": {
+                "interface": {
+                    "source": "tmu.ac.jp",
+                    "target": "tmu.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.37",
+            "target": "AS2514-00122025.tkykcacr01.sphere.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "tmu.ac.jp",
+                    "target": "tmu.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2514-00122025.tkykcacr01.sphere.ad.jp",
+            "target": "AS2514-tmu.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "tmu.ac.jp",
+                    "target": "tmu.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-60.37.54.178",
+            "target": "MULTIFEED-210.173.176.198",
+            "meta": {
+                "interface": {
+                    "source": "kwansei.ac.jp",
+                    "target": "kwansei.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.198",
+            "target": "AmazonTechnologiesInc.-15.230.152.13",
+            "meta": {
+                "interface": {
+                    "source": "kwansei.ac.jp",
+                    "target": "kwansei.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AmazonTechnologiesInc.-15.230.152.13",
+            "target": "AmazonTechnologiesInc.-15.230.152.103",
+            "meta": {
+                "interface": {
+                    "source": "kwansei.ac.jp",
+                    "target": "kwansei.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AmazonTechnologiesInc.-15.230.152.103",
+            "target": "???_to_kwansei.ac.jp_10",
+            "meta": {
+                "interface": {
+                    "source": "kwansei.ac.jp",
+                    "target": "kwansei.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_kwansei.ac.jp_10",
+            "target": "???_to_kwansei.ac.jp_18",
+            "meta": {
+                "interface": {
+                    "source": "kwansei.ac.jp",
+                    "target": "kwansei.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_kwansei.ac.jp_18",
+            "target": "AmazonTechnologiesInc.-kwansei.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "kwansei.ac.jp",
+                    "target": "kwansei.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-60.37.54.182",
+            "target": "MULTIFEED-210.173.176.14",
+            "meta": {
+                "interface": {
+                    "source": "yokohama-cu.ac.jp",
+                    "target": "yokohama-cu.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.14",
+            "target": "AS2518-133.208.191.150",
+            "meta": {
+                "interface": {
+                    "source": "yokohama-cu.ac.jp",
+                    "target": "yokohama-cu.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2518-133.208.191.150",
+            "target": "AS2518-133.208.161.174",
+            "meta": {
+                "interface": {
+                    "source": "yokohama-cu.ac.jp",
+                    "target": "yokohama-cu.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2518-133.208.161.174",
+            "target": "10.249.48.121",
+            "meta": {
+                "interface": {
+                    "source": "yokohama-cu.ac.jp",
+                    "target": "yokohama-cu.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "10.249.48.121",
+            "target": "AS2518-yokohama-cu.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "yokohama-cu.ac.jp",
+                    "target": "yokohama-cu.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-150.99.9.124",
+            "target": "???_to_dendai.ac.jp_9",
+            "meta": {
+                "interface": {
+                    "source": "dendai.ac.jp",
+                    "target": "dendai.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_dendai.ac.jp_9",
+            "target": "AS2907-l7fwv154.ntwk.dendai.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "dendai.ac.jp",
+                    "target": "dendai.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-l7fwv154.ntwk.dendai.ac.jp",
+            "target": "AS2907-dendai.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "dendai.ac.jp",
+                    "target": "dendai.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-118.23.14.235",
+            "target": "AS4713-210.232.233.254",
+            "meta": {
+                "interface": {
+                    "source": "kanazawa-u.ac.jp",
+                    "target": "kanazawa-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-210.232.233.254",
+            "target": "AS131965-103.3.0.3",
+            "meta": {
+                "interface": {
+                    "source": "kanazawa-u.ac.jp",
+                    "target": "kanazawa-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS131965-103.3.0.3",
+            "target": "AS131965-kanazawa-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "kanazawa-u.ac.jp",
+                    "target": "kanazawa-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-210.254.188.18",
+            "target": "MULTIFEED-210.173.177.18",
+            "meta": {
+                "interface": {
+                    "source": "shinshu-u.ac.jp",
+                    "target": "shinshu-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.177.18",
+            "target": "AmazonTechnologiesInc.-52.93.251.197",
+            "meta": {
+                "interface": {
+                    "source": "shinshu-u.ac.jp",
+                    "target": "shinshu-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AmazonTechnologiesInc.-52.93.251.197",
+            "target": "AmazonTechnologiesInc.-150.222.90.11",
+            "meta": {
+                "interface": {
+                    "source": "shinshu-u.ac.jp",
+                    "target": "shinshu-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AmazonTechnologiesInc.-150.222.90.11",
+            "target": "shinshu-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "shinshu-u.ac.jp",
+                    "target": "shinshu-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-60.37.54.182",
+            "target": "MULTIFEED-210.173.176.198",
+            "meta": {
+                "interface": {
+                    "source": "meisei-u.ac.jp",
+                    "target": "meisei-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.198",
+            "target": "???_to_meiseiu.ac.jp_8",
+            "meta": {
+                "interface": {
+                    "source": "meisei-u.ac.jp",
+                    "target": "meisei-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_meiseiu.ac.jp_8",
+            "target": "???_to_meiseiu.ac.jp_11",
+            "meta": {
+                "interface": {
+                    "source": "meisei-u.ac.jp",
+                    "target": "meisei-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_meiseiu.ac.jp_11",
+            "target": "AmazonTechnologiesInc.-15.230.152.54",
+            "meta": {
+                "interface": {
+                    "source": "meisei-u.ac.jp",
+                    "target": "meisei-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AmazonTechnologiesInc.-15.230.152.54",
+            "target": "AS16509-meisei-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "meisei-u.ac.jp",
+                    "target": "meisei-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.94",
+            "target": "AS2907-150.99.17.116",
+            "meta": {
+                "interface": {
+                    "source": "mie-u.ac.jp",
+                    "target": "mie-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-150.99.17.116",
+            "target": "AS2907-mieu2.gw.sinet.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "mie-u.ac.jp",
+                    "target": "mie-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-mieu2.gw.sinet.ad.jp",
+            "target": "AS24261-gfw.gw.mieu.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "mie-u.ac.jp",
+                    "target": "mie-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS24261-gfw.gw.mieu.ac.jp",
+            "target": "AS24261-133.67.2.254",
+            "meta": {
+                "interface": {
+                    "source": "mie-u.ac.jp",
+                    "target": "mie-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS24261-133.67.2.254",
+            "target": "mie-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "mie-u.ac.jp",
+                    "target": "mie-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-150.99.18.88",
+            "target": "AS2907-omu.gw.sinet.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "omu.ac.jp",
+                    "target": "omu.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-omu.gw.sinet.ad.jp",
+            "target": "omu.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "omu.ac.jp",
+                    "target": "omu.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-125.206.183.198",
+            "target": "AS7522-115.31.54.81",
+            "meta": {
+                "interface": {
+                    "source": "ryukoku.ac.jp",
+                    "target": "ryukoku.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS7522-115.31.54.81",
+            "target": "AS7522-ryukoku.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "ryukoku.ac.jp",
+                    "target": "ryukoku.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS8075-ae200.icr02.tyo30.ntwk.msn.net",
+            "target": "tut.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "tut.ac.jp",
+                    "target": "tut.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.94",
+            "target": "AS2907-150.99.3.208",
+            "meta": {
+                "interface": {
+                    "source": "hirosaki-u.ac.jp",
+                    "target": "hirosaki-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-150.99.3.208",
+            "target": "hirosaki-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "hirosaki-u.ac.jp",
+                    "target": "hirosaki-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-118.23.14.235",
+            "target": "AS4713-61.199.135.94",
+            "meta": {
+                "interface": {
+                    "source": "nagasaki-u.ac.jp",
+                    "target": "nagasaki-u.ac.jp"
+                },
+                "bandwidth": "2"
+            }
+        },
+        {
+            "source": "AS4713-61.199.135.94",
+            "target": "AS8075-ae200.icr01.tyo30.ntwk.msn.net",
+            "meta": {
+                "interface": {
+                    "source": "nagasaki-u.ac.jp",
+                    "target": "nagasaki-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS8075-ae200.icr01.tyo30.ntwk.msn.net",
+            "target": "AS8075-ae1220.icr02.osa31.ntwk.msn.net",
+            "meta": {
+                "interface": {
+                    "source": "nagasaki-u.ac.jp",
+                    "target": "nagasaki-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS8075-ae1220.icr02.osa31.ntwk.msn.net",
+            "target": "???_to_nagasakiu.ac.jp_12",
+            "meta": {
+                "interface": {
+                    "source": "nagasaki-u.ac.jp",
+                    "target": "nagasaki-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_nagasakiu.ac.jp_12",
+            "target": "???_to_nagasakiu.ac.jp_16",
+            "meta": {
+                "interface": {
+                    "source": "nagasaki-u.ac.jp",
+                    "target": "nagasaki-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_nagasakiu.ac.jp_16",
+            "target": "AS8075-nagasaki-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "nagasaki-u.ac.jp",
+                    "target": "nagasaki-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-122.28.104.122",
+            "target": "MULTIFEED-210.173.177.19",
+            "meta": {
+                "interface": {
+                    "source": "tcu.ac.jp",
+                    "target": "tcu.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AmazonTechnologiesInc.-150.222.77.187",
+            "target": "AmazonTechnologiesInc.-15.230.152.107",
+            "meta": {
+                "interface": {
+                    "source": "tcu.ac.jp",
+                    "target": "tcu.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AmazonTechnologiesInc.-15.230.152.107",
+            "target": "tcu.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "tcu.ac.jp",
+                    "target": "tcu.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-122.1.245.181",
+            "target": "AS2914-ae6.r03.tokyjp05.jp.bb.gin.ntt.net",
+            "meta": {
+                "interface": {
+                    "source": "hit-u.ac.jp",
+                    "target": "hit-u.ac.jp"
+                },
+                "bandwidth": "2"
+            }
+        },
+        {
+            "source": "AS2914-ae6.r03.tokyjp05.jp.bb.gin.ntt.net",
+            "target": "AS2914-ce01402.r01.tokyjp08.jp.ce.gin.ntt.net",
+            "meta": {
+                "interface": {
+                    "source": "hit-u.ac.jp",
+                    "target": "hit-u.ac.jp"
+                },
+                "bandwidth": "3"
+            }
+        },
+        {
+            "source": "SAKURANET-tkort4brt1.bb.sakura.ad.jp",
+            "target": "SAKURANET-iskrt205ert201b.bb.sakura.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "hit-u.ac.jp",
+                    "target": "hit-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "SAKURANET-iskrt205ert201b.bb.sakura.ad.jp",
+            "target": "AS7684-hit-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "hit-u.ac.jp",
+                    "target": "hit-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-150.99.18.34",
+            "target": "AS2907-kit1.gw.sinet.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "kit.ac.jp",
+                    "target": "kit.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-kit1.gw.sinet.ad.jp",
+            "target": "kit.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "kit.ac.jp",
+                    "target": "kit.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-61.199.135.94",
+            "target": "AS8075-ae210.icr01.tyo31.ntwk.msn.net",
+            "meta": {
+                "interface": {
+                    "source": "usp.ac.jp",
+                    "target": "usp.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS8075-ae210.icr01.tyo31.ntwk.msn.net",
+            "target": "???_to_usp.ac.jp_9",
+            "meta": {
+                "interface": {
+                    "source": "usp.ac.jp",
+                    "target": "usp.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_usp.ac.jp_9",
+            "target": "???_to_usp.ac.jp_13",
+            "meta": {
+                "interface": {
+                    "source": "usp.ac.jp",
+                    "target": "usp.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_usp.ac.jp_13",
+            "target": "AS8075-usp.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "usp.ac.jp",
+                    "target": "usp.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.94",
+            "target": "AS2907-150.99.19.228",
+            "meta": {
+                "interface": {
+                    "source": "yamaguchi-u.ac.jp",
+                    "target": "yamaguchi-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-150.99.19.228",
+            "target": "AS2907-133.62.1.42",
+            "meta": {
+                "interface": {
+                    "source": "yamaguchi-u.ac.jp",
+                    "target": "yamaguchi-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-133.62.1.42",
+            "target": "yamaguchi-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "yamaguchi-u.ac.jp",
+                    "target": "yamaguchi-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2497-210.130.134.118",
+            "target": "AS2519-163.139.38.54",
+            "meta": {
+                "interface": {
+                    "source": "soka.ac.jp",
+                    "target": "soka.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2519-163.139.38.54",
+            "target": "AS2519-163.139.77.98",
+            "meta": {
+                "interface": {
+                    "source": "soka.ac.jp",
+                    "target": "soka.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2519-163.139.77.98",
+            "target": "AS17506-210.79.13.174",
+            "meta": {
+                "interface": {
+                    "source": "soka.ac.jp",
+                    "target": "soka.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS17506-210.79.13.174",
+            "target": "AS17506-soka.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "soka.ac.jp",
+                    "target": "soka.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-150.99.20.146",
+            "target": "AS2907-fukuokakougyouu.gw.sinet.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "fit.ac.jp",
+                    "target": "fit.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-fukuokakougyouu.gw.sinet.ad.jp",
+            "target": "???_to_fit.ac.jp_10",
+            "meta": {
+                "interface": {
+                    "source": "fit.ac.jp",
+                    "target": "fit.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_fit.ac.jp_10",
+            "target": "???_to_fit.ac.jp_11",
+            "meta": {
+                "interface": {
+                    "source": "fit.ac.jp",
+                    "target": "fit.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_fit.ac.jp_11",
+            "target": "AS2907-fit.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "fit.ac.jp",
+                    "target": "fit.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2497-tky009bb00.iij.net",
+            "target": "AS2497-210.130.134.118",
+            "meta": {
+                "interface": {
+                    "source": "kawai-juku.ac.jp",
+                    "target": "kawai-juku.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2497-210.130.134.118",
+            "target": "AS2519-163.139.129.66",
+            "meta": {
+                "interface": {
+                    "source": "kawai-juku.ac.jp",
+                    "target": "kawai-juku.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2519-163.139.129.66",
+            "target": "AS2519-163.139.128.130",
+            "meta": {
+                "interface": {
+                    "source": "kawai-juku.ac.jp",
+                    "target": "kawai-juku.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2519-163.139.128.130",
+            "target": "kawai-juku.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "kawai-juku.ac.jp",
+                    "target": "kawai-juku.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.94",
+            "target": "AS2907-150.99.16.42",
+            "meta": {
+                "interface": {
+                    "source": "shizuoka.ac.jp",
+                    "target": "shizuoka.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-150.99.16.42",
+            "target": "AS2907-shizuoka.gw.sinet.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "shizuoka.ac.jp",
+                    "target": "shizuoka.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-shizuoka.gw.sinet.ad.jp",
+            "target": "AS24268-133.70.80.13",
+            "meta": {
+                "interface": {
+                    "source": "shizuoka.ac.jp",
+                    "target": "shizuoka.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS24268-133.70.80.13",
+            "target": "AS24268-shizuoka.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "shizuoka.ac.jp",
+                    "target": "shizuoka.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-118.23.168.133",
+            "target": "AS2914-ae5.r02.tokyjp05.jp.bb.gin.ntt.net",
+            "meta": {
+                "interface": {
+                    "source": "hiroshima-cu.ac.jp",
+                    "target": "hiroshima-cu.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "SAKURANET-tkgrt1sbrt1.bb.sakura.ad.jp",
+            "target": "SAKURANET-sactk1art11tkdrt1b2.bb.sakura.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "hiroshima-cu.ac.jp",
+                    "target": "hiroshima-cu.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "SAKURANET-sactk1art11tkdrt1b2.bb.sakura.ad.jp",
+            "target": "???_to_hiroshimacu.ac.jp_13",
+            "meta": {
+                "interface": {
+                    "source": "hiroshima-cu.ac.jp",
+                    "target": "hiroshima-cu.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_hiroshimacu.ac.jp_13",
+            "target": "AS9370-hiroshima-cu.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "hiroshima-cu.ac.jp",
+                    "target": "hiroshima-cu.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-118.23.14.235",
+            "target": "AS4713-61.118.46.198",
+            "meta": {
+                "interface": {
+                    "source": "komazawa-u.ac.jp",
+                    "target": "komazawa-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-61.118.46.198",
+            "target": "JPNICNETJPERX-133.160.51.26",
+            "meta": {
+                "interface": {
+                    "source": "komazawa-u.ac.jp",
+                    "target": "komazawa-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "JPNICNETJPERX-133.160.51.26",
+            "target": "JPNICNETJPERX-133.160.138.6",
+            "meta": {
+                "interface": {
+                    "source": "komazawa-u.ac.jp",
+                    "target": "komazawa-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "JPNICNETJPERX-133.160.138.6",
+            "target": "AS2510-61.121.125.25",
+            "meta": {
+                "interface": {
+                    "source": "komazawa-u.ac.jp",
+                    "target": "komazawa-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2510-61.121.125.25",
+            "target": "AS2510-komazawa-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "komazawa-u.ac.jp",
+                    "target": "komazawa-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-118.23.14.235",
+            "target": "AS4713-211.6.91.54",
+            "meta": {
+                "interface": {
+                    "source": "gunma-u.ac.jp",
+                    "target": "gunma-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-211.6.91.54",
+            "target": "AS23785-202.213.37.6",
+            "meta": {
+                "interface": {
+                    "source": "gunma-u.ac.jp",
+                    "target": "gunma-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS23785-202.213.37.6",
+            "target": "AS23785-gunma-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "gunma-u.ac.jp",
+                    "target": "gunma-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.94",
+            "target": "AS2907-150.99.8.44",
+            "meta": {
+                "interface": {
+                    "source": "ibaraki.ac.jp",
+                    "target": "ibaraki.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-150.99.8.44",
+            "target": "AS2907-ibarakiu.gw.sinet.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "ibaraki.ac.jp",
+                    "target": "ibaraki.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-ibarakiu.gw.sinet.ad.jp",
+            "target": "ibaraki.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "ibaraki.ac.jp",
+                    "target": "ibaraki.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-150.99.18.140",
+            "target": "u-hyogo.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "u-hyogo.ac.jp",
+                    "target": "u-hyogo.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "MULTIFEED-210.173.176.94",
+            "target": "AS2907-150.99.15.152",
+            "meta": {
+                "interface": {
+                    "source": "gifu-u.ac.jp",
+                    "target": "gifu-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS2907-150.99.15.152",
+            "target": "gifu-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "gifu-u.ac.jp",
+                    "target": "gifu-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "SAKURANET-tkort4brt1.bb.sakura.ad.jp",
+            "target": "SAKURANET-sacis1brt11rt201b2.sakura.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "saitama-u.ac.jp",
+                    "target": "saitama-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "SAKURANET-sacis1brt11rt201b2.sakura.ad.jp",
+            "target": "???_to_saitamau.ac.jp_15",
+            "meta": {
+                "interface": {
+                    "source": "saitama-u.ac.jp",
+                    "target": "saitama-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_saitamau.ac.jp_15",
+            "target": "AS7684-saitama-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "saitama-u.ac.jp",
+                    "target": "saitama-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-118.23.14.235",
+            "target": "AS4713-122.1.245.185",
+            "meta": {
+                "interface": {
+                    "source": "akita-u.ac.jp",
+                    "target": "akita-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "AS4713-122.1.245.185",
+            "target": "AS2914-ae6.r03.tokyjp05.jp.bb.gin.ntt.net",
+            "meta": {
+                "interface": {
+                    "source": "akita-u.ac.jp",
+                    "target": "akita-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "SAKURANET-tkort4brt1.bb.sakura.ad.jp",
+            "target": "SAKURANET-sacis1art11rt302b1.sakura.ad.jp",
+            "meta": {
+                "interface": {
+                    "source": "akita-u.ac.jp",
+                    "target": "akita-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "SAKURANET-sacis1art11rt302b1.sakura.ad.jp",
+            "target": "???_to_akitau.ac.jp_15",
+            "meta": {
+                "interface": {
+                    "source": "akita-u.ac.jp",
+                    "target": "akita-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        },
+        {
+            "source": "???_to_akitau.ac.jp_15",
+            "target": "AS7684-akita-u.ac.jp",
+            "meta": {
+                "interface": {
+                    "source": "akita-u.ac.jp",
+                    "target": "akita-u.ac.jp"
+                },
+                "bandwidth": "1"
+            }
+        }
+    ]
+}
